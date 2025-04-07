@@ -1,0 +1,41 @@
+<ProjectileDefinitions>
+
+	<ProjectileDefinition name="normal bullet" id = "0" productID = "9" isPiercing = "false" isParalyzing = "false" isBurning = "false"
+						isGuided = "false" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f" 
+						lifeSpan = "0.3f" speed = "50.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 255, 255, 255"/>
+	<ProjectileDefinition name="piercing bullet" id = "1" productID = "10" isPiercing = "true" isParalyzing = "false" isBurning = "false"
+						isGuided = "false" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "0.3f" speed = "50.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 255, 0, 255"/>
+	<ProjectileDefinition name="paralyzer bullet" id = "2" productID = "11" isPiercing = "false" isParalyzing = "true" isBurning = "false"
+						isGuided = "false" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+					lifeSpan = "0.3f" speed = "50.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="0, 255, 0, 255"/>
+	<ProjectileDefinition name="burning bullet" id = "3" productID = "12" isPiercing = "false" isParalyzing = "false" isBurning = "true"
+						isGuided = "false" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "0.3f" speed = "50.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 0, 0, 255"/>
+
+	<ProjectileDefinition name="guided normal bullet" id = "4" productID = "9" isPiercing = "false" isParalyzing = "false" isBurning = "false"
+						isGuided = "true" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "3.f" projectileCount = "10" bounds = "0.3f, 0.3f" tintColor="255, 255, 255, 255"/>
+	<ProjectileDefinition name="guided piercing bullet" id = "5" productID = "10" isPiercing = "true" isParalyzing = "false" isBurning = "false"
+						isGuided = "true" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "3.f" projectileCount = "10" bounds = "0.3f, 0.3f" tintColor="255, 255, 0, 255"/>
+	<ProjectileDefinition name="guided paralyzer bullet" id = "6" productID = "11" isPiercing = "false" isParalyzing = "true" isBurning = "false"
+						isGuided = "true" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "3.f" projectileCount = "10" bounds = "0.3f, 0.3f" tintColor="0, 255, 0, 255"/>
+	<ProjectileDefinition name="guided burning bullet" id = "7" productID = "12" isPiercing = "false" isParalyzing = "false" isBurning = "true"
+						isGuided = "true" isSplashing = "false" texturePath = "Data/Images/Projectiles/bullet.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "3.f" projectileCount = "10" bounds = "0.3f, 0.3f" tintColor="255, 0, 0, 255"/>
+
+	<ProjectileDefinition name="normal rocket" id = "8" productID = "9" isPiercing = "false" isParalyzing = "false" isBurning = "false"
+						isGuided = "false" isSplashing = "true" texturePath = "Data/Images/Projectiles/rocket.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "2.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 255, 255, 255"/>
+	<ProjectileDefinition name="piercing rocket" id = "9" productID = "10" isPiercing = "true" isParalyzing = "false" isBurning = "false"
+						isGuided = "false" isSplashing = "true" texturePath = "Data/Images/Projectiles/rocket.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "2.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 255, 0, 255"/>
+	<ProjectileDefinition name="paralyzer rocket" id = "10" productID = "11" isPiercing = "false" isParalyzing = "true" isBurning = "false"
+						isGuided = "false" isSplashing = "true" texturePath = "Data/Images/Projectiles/rocket.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "2.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="0, 255, 0, 255"/>
+	<ProjectileDefinition name="burning rocket" id = "11" productID = "12" isPiercing = "false" isParalyzing = "false" isBurning = "true"
+						isGuided = "false" isSplashing = "true" texturePath = "Data/Images/Projectiles/rocket.png" damage = "1.f"
+						lifeSpan = "10.f" speed = "2.f" projectileCount = "10" bounds = "0.8f, 0.2f" tintColor="255, 0, 0, 255"/>
+</ProjectileDefinitions>

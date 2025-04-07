@@ -1,0 +1,281 @@
+<!--Items defined here 1: 25 2: 32 3: 23 4: 20-->
+<ItemDefinitions>
+	<!--0. add a little attack damage f-->
+	<ItemDefinition id="0" name="Common Projectiles" type="Normal" pool="1" description="Add Damage" detail="Gain a little attack damage"
+					damageModifier="0.2"/>
+	<!--1. add some attack damage f-->
+	<ItemDefinition id="1" name="Epic Projectiles" type="Normal" pool="2" description="Add Damage" detail="Gain some attack damage"
+					damageModifier="0.5"/>
+	<!--2. add a lot attack damage f-->
+	<ItemDefinition id="2" name="Legend Projectiles" type="Normal" pool="3" description="Add Damage" detail="Gain a lot attack damage"
+					damageModifier="1.0"/>
+	<!--3. add a little attack speed f-->
+	<ItemDefinition id="3" name="Auto Rifle" type="Normal" pool="1" description="Add Attack Speed" detail="Gain a little attack speed"
+					attackSpeedModifier="0.1"/>
+	<!--4. add some attack speed f-->
+	<ItemDefinition id="4" name="Better Shooting Part" type="Normal" pool="2" description="Add Attack Speed" detail="Gain some attack speed"
+					attackSpeedModifier="0.2"/>
+	<!--5. add a lot attack speed f-->
+	<ItemDefinition id="5" name="Computed Replenishing System" type="Normal" pool="3" description="Add Attack Speed" detail="Gain a lot attack speed"
+					attackSpeedModifier="0.3"/>
+	<!--6. add bullet speed f-->
+	<ItemDefinition id="6" name="Bullet Thruster" type="Normal" pool="1" description="Add Projectile Speed" detail="Gain bullet speed"
+					bulletSpeedModifier="0.3"/>
+	<!--7. add moving speed f-->
+	<ItemDefinition id="7" name="Relic Engine" type="Normal" pool="2" description="Add Movement Speed" detail="Gain moving speed"
+					movingSpeedModifier="0.2"/>
+	<!--8. can shoot in three direction; substract attack speed f-->
+	<ItemDefinition id="8" name="Trident" type="ThreeBullets" pool="4" description="Why Three?" detail="The player can shoot in three directions, lose attack speed"
+					attackSpeedModifier="-0.75"/>
+	<!--9. add a little attack speed; bullet may start with a little bias f-->
+	<ItemDefinition id="9" name="Unstable Machine Gun" type="BulletBias" pool="2" description="Price of Attack Speed?" detail="Gain a little attack speed, the player's bullets may start with a little bias"
+					attackSpeedModifier="0.15"/>
+	<!--10. bullet can pass through enemy; substract attack damage add bullet speed substract bullet lifetime f-->
+	<ItemDefinition id="10" name="Sea Pike" type="SpearBullet" pool="3" description="Just a Pike" detail="The player's bullet can pass through enemy, lose attack damage, gain bullet speed, lose bullet lifetime"
+					damageModifier="-0.2" bulletSpeedModifier="1.0" bulletLifeTimeModifier="-0.5"/>
+	<!--11. lower dashing cooldown f-->
+	<ItemDefinition id="11" name="Engine Cooldown System" type="Normal" pool="2" description="Dash!" detail="Less dashing cooldown"
+					dashingCoolDownModifier="0.3"/>
+	<!--12. further dashing distance f-->
+	<ItemDefinition id="12" name="Engine Amplifier" type="Normal" pool="1" description="Dash Distance!" detail="Gain more dashing distance"
+					dashingDistanceModifier="0.3"/>
+	<!--13. lose one max health, add some attack damage f-->
+	<ItemDefinition id="13" name="Demon's Insane Chip" type="Normal" pool="1" description="Damage Deal" specialPool="Demon" detail="Lose one max health, gain attack damage"
+					maxHealthModifier="-1.0" damageModifier="0.6"/>
+	<!--14. Heavy Armor: gain 2 max health; lose moving speed f-->
+	<ItemDefinition id="14" name="Heavy Armor" type="Normal" pool="2" description="Max Health Deal" detail="Gain 2 max health, lose moving speed"
+					maxHealthModifier="3.0" movingSpeedModifier="-0.05"/>
+	<!--15. Light Armor: gain 1 max health f-->
+	<ItemDefinition id="15" name="Light Armor" type="Normal" pool="1" description="Max Health" detail="Gain 1 max health"
+					maxHealthModifier="1.0"/>
+	<!--16. Shining Shield: gain a shiled charge 2, gain 2 charges every level-->
+	<ItemDefinition id="16" name="G15 Shield" type="ShiningShield" pool="3" description="Generative Shield" category="Skill" detail="Generate a shield, charge 2, gain 2 charges every level"
+					startCharge="2" chargePerLevel="2" hasCharge="true"/>
+	<!--17. : if you are damaged, gain speed and attack damage in seconds (in addition)-->
+	<ItemDefinition id="17" name="Revenge Speed System" type="RevengeSpeed" pool="1" description="Revenge System" detail="Whenever the player is damaged, gain speed and attack damage in seconds"/>
+	<!--18. : Your bullet will explode and deal (small) range damage f-->
+	<ItemDefinition id="18" name="Unstable Adhesuve" type="RangeBullet" pool="3" description="Explosive Projectile" detail="The player's bullets will explode and deal range damage"/>
+	<!--19. : higher bullet damage; lower bullet speed f-->
+	<ItemDefinition id="19" name="Projectile Speed Converter" type="Normal" pool="2" description="Speed to Damage" detail="Gain attack damage, lose bullet speed"
+					bulletSpeedModifier="-0.2" damageModifier="0.8"/>
+	<!--20. : if you are damaged, shoot revenging bullets like machine gun f-->
+	<ItemDefinition id="20" name="Revenge Bullet System" type="RevengeBullet" pool="2" description="Revenge System" detail="Whenever the player is damaged, shoot revenging bullets like machine gun"/>
+	<!--21. : press skill button to direct damage yourself, then gain invincible for seconds and can shoot in 16 directons f-->
+	<ItemDefinition id="21" name="Demon's Self-harm equipment" type="SelfDamage" pool="3" description="Crazy than Usual" detail="Deal direct damage to the player, then keep shooting in 16 directons for a while"
+					category="Skill" specialPool="Demon"/>
+	<!--22. : you will be stronger(moving speed and attack speed) when you have less health(1,2,3)-->
+	<ItemDefinition id="22" name="Crisis Awareness" type="LowerHealthAdvantage" pool="2" description="Stronger in Lower Health" detail="The player will be stronger(in moving speed and attack speed) when the player has less health(1,2,3)"
+					/>
+	<!--23. : have possibility to upgrade any items in the game to a higher level-->
+	<ItemDefinition id="23" name="Rabbit's Foot" type="UpgradeItem" pool="1" description="Possibility to Better Items" detail="Have possibility to upgrade any items generated(gained) in the game to a higher level"
+					/>
+	<!--24. : gain 2 max health f-->
+	<ItemDefinition id="24" name="Jiuce" type="Normal" pool="2" description="I like this TASTE!" detail="Gain 2 max health"
+					maxHealthModifier="2.0"/>
+	<!--25. : choose 1 level 1 item-->
+	<ItemDefinition id="25" name="Wishing Bottle1" type="ChooseLevel1" pool="2" description="Choose one Item" detail="Choose 1 level 1 item"
+					category="ChooseItem"/>
+	<!--26. : choose 1 level 2 item-->
+	<ItemDefinition id="26" name="Wishing Bottle2" type="ChooseLevel2" pool="3" description="Choose one Item" detail="Choose 1 level 2 item"
+					category="ChooseItem"/>
+	<!--27. : choose 1 level 3 item-->
+	<ItemDefinition id="27" name="Wishing Bottle3" type="ChooseLevel3" pool="4" description="Choose one Item" detail="Choose 1 level 3 item"
+					category="ChooseItem"/>
+	<!--28. : When choosing items, you can always reject them and add 1 max health-->
+	<ItemDefinition id="28" name="Wilful" type="ItemChooseAdd1Health" pool="1" description="Just Want What I Need" detail="When choosing items, the player can always use this skill to reject them and add 1 max health"
+					category="Skill"/>
+	<!--29. : (only once)If you die, respawn and have only one health f-->
+	<ItemDefinition id="29" name="Cat" type="Respawn1Health" pool="2" description="Protect You" detail="(only once)When the player die, respawn and recover only one health"/>
+	<!--30. : (only once)If you die, respawn and have half of your health f-->
+	<ItemDefinition id="30" name="Angel" type="RespawnHalfHealth" pool="3" description="Protect You" detail="(only once)When the player die, respawn and recover half of your health"/>
+	<!--31. : When ever you lose any health, 50% gain gain 1 armor f-->
+	<ItemDefinition id="31" name="Armor Converter" type="LoseHealthGainArmor" pool="3" description="Lose Health Gain Armor" detail="Whenever the player lose any health, 50% chance to gain 1 armor"/>
+	<!--32. : When ever you lose any armor, 50% gain 1 health f-->
+	<ItemDefinition id="32" name="Damage Management" type="LoseArmorGainHealth" pool="2" description="Lose Armor Gain Health" detail="Whenever the player lose any armor, 50% chance to gain 1 health"/>
+	<!--33. : Gain 1 max Armor f-->
+	<ItemDefinition id="33" name="Real Armor" type="Normal" pool="1" description="Gain Max Armor" detail="Gain 1 max Armor"
+					maxArmorModifier="1.0"/>
+	<!--34. : Gain 2 max Armor f-->
+	<ItemDefinition id="34" name="Real Armor2" type="Normal" pool="2" description="Gain Max Armor" detail="Gain 2 max Armor"
+					maxArmorModifier="2.0"/>
+	<!--35. : Randomize all your items(keep the level)(excluding this)-->
+	<ItemDefinition id="35" name="Pandora's Box" type="RandomAllItems" pool="4" description="Randomize Your Items" detail="Randomize all items owned by player(excluding this)"/>
+	<!--36. : Sub Weapon; Dash to your orientation and deal damage to the path according to your remain armor, if you kill any enemy, gain 1 armor-->
+	<ItemDefinition id="36" name="Shield Boost Unit" type="SubWeaponShieldDash" pool="4" description="Dash to Enemy" detail="Dash to your orientation and deal damage to the path according to your remain armor, whenever you kill any enemy by this item, gain 1 armor"
+					category="SubWeapon"/>
+	<!--37. : Sub Weapon; Shoot locked laser to enemy, auto aiming-->
+	<ItemDefinition id="37" name="Auto Locking Laser" type="SubWeaponLaser" pool="3" description="Laser" detail="Shoot locked laser to enemy, auto aiming"
+					category="SubWeapon"/>
+	<!--38. : Add bullet life time f-->
+	<ItemDefinition id="38" name="Durable Projectile" type="Normal" pool="1" description="Bullet Life Time" detail="Add bullet life time"
+					bulletLifeTimeModifier="0.5"/>
+	<!--39. : Choose 1 skill item f-->
+	<ItemDefinition id="39" name="Skill Book" type="ChooseSkill" pool="4" description="Choose One Skill" detail="Choose 1 skill item"
+					category="ChooseItem"/>
+	<!--40. : Choose 1 sub-weapon item f-->
+	<ItemDefinition id="40" name="Weapon Contract" type="ChooseSubWeapon" pool="4" description="Choose One SubWeapon" detail="Choose 1 sub-weapon item"
+					category="ChooseItem"/>
+
+	<!--41. : cannot see the map, add 5 random faction room (no boss) to each floor, add movement speed-->
+	<ItemDefinition id="41" name="Rash" type="BlindWithRoom" pool="1" description="Blind but More" detail="Cannot see the map, add 5 random faction room (no boss) to each floor, add movement speed"
+					movingSpeedModifier="0.2"/>
+	<!--42. : Cannot see items in the room, get a random level4 item immediately-->
+	<ItemDefinition id="42" name="Impatient" type="BlindWithItem" pool="1" description="Get Strong Item by Cost" detail="Cannot see items in the room, get a random level4 item immediately"/>
+	<!--43. if you are damaged, get 10 coins-->
+	<ItemDefinition id="43" name="Medical Insurance" type="MedicalInsurance" pool="2" description="Gain Coins When Damaged" detail="If the player is damaged, get 10 coins"/>
+	<!--44. : Shoot more bullets, shoot in random direction-->
+	<ItemDefinition id="44" name="Ship Toilet" type="Toilet" pool="2" description="Wrong Target Again" detail="Shoot more bullets, all bullets are shot in random direction"/>
+	<!--45. : Shoot a big explosive fast speed rocket-->
+	<ItemDefinition id="45" name="Rocket" type="SubWeaponRocket" pool="3" description="Faster than Sounds" category="SubWeapon" detail="Shoot a big explosive fast speed rocket"/>
+	<!--46. : Lay an explosive which will explode in several seconds-->
+	<ItemDefinition id="46" name="Mine" type="SubWeaponExplosive" pool="2" description="Explode in Seconds" category="SubWeapon" detail="Lay an explosive which will explode in several seconds"/>
+	<!--47. : Get an asteriod surrounding playership and rotate-->
+	<ItemDefinition id="47" name="Asteriod" type="Asteroid" pool="4" description="Surrounding You" detail="Get an asteriod surrounding playership, block enemy projectiles and deal damage when collide with enemies"/>
+	<!--48. Bigger Bullet Supply: Bullets become bigger-->
+	<ItemDefinition id="48" name="Pride of Arsenal" type="BiggerBullet" pool="2" description="Bigger Projectile" detail="Bullets become bigger, gain attack damage, lose bullet speed"
+					damageModifier="0.5" bulletSpeedModifier="-0.2"/>
+	<!--49. : Spend money to enhance player ship damage, do not lose damage when lose this item-->
+	<ItemDefinition id="49" name="Portable Upgrade Tool" type="AttackEnhancement" pool="2" description="Pay Money First" detail="Spend money to enhance the player's attack damage, do not lose damage when lose this item"
+					category="Skill"/>
+	<!--50. : The first time when you come in a shop room, if you have at least 100 coins, gain 1 max armor-->
+	<ItemDefinition id="50" name="Millionaire's VIP Card" type="MoreMoneyShopBonus" pool="1" description="Try to Be a Millionaire" detail="The first time when you come in a shop room, if you have at least 100 coins, gain 1 max armor"/>
+	<!--51. : Items in shop are discounted-->
+	<ItemDefinition id="51" name="Discount Card" type="DiscountCard" pool="2" description="Item 50% Off" detail="Items in shop are discounted"/>
+	<!--52. : Non-Items in shop are discounted-->
+	<ItemDefinition id="52" name="Service Discount Card" type="CustomerCard" pool="1" description="Repairation 50% Off" detail="Non-Items in shop are discounted"/>
+	<!--53. : Damage self and gain money(5-14)-->
+	<ItemDefinition id="53" name="Portable Disassembler" type="SelfHurtMachine" pool="2" description="Sell HP to Get Money" detail="Deal damage to the player and gain coins(5-14)"
+					category="Skill"/>
+	<!--54. Blood Thirst: Lose half(0.5) of your base attack, whenever you kill an enemy, +0.01 base attack, boss counts as 10 enemies, losing item do not change your base attack-->
+	<ItemDefinition id="54" name="BloodThirst" type="BloodThirst" pool="2" description="Become Stronger by Killing Others" detail="Lose half(0.5) of your base attack, whenever you kill an enemy, +0.01 base attack, boss counts as 10 enemies, losing this item do not change your base attack"/>
+	<!--55. : Add base attack, gain 1 max health, add movement speed-->
+	<ItemDefinition id="55" name="Driving License" type="BaseAttack" pool="3" description="Familier to Drive a Star Ship" detail="Add base attack damage, gain 1 max health, add movement speed"
+					maxHealthModifier="1.0" movingSpeedModifier="0.1"/>
+	<!--56. : Gain 50 coins-->
+	<ItemDefinition id="56" name="Coin Bag" type="Coins" pool="1" description="This Will Not Happen In Reality" detail="Gain 50 coins"/>
+	<!--57. : Shoot poisonous bullets, deal persistent damage to enemy-->
+	<ItemDefinition id="57" name="Poison" type="PoisonousBullet" pool="4" description="Poisonous Projectile" detail="Shoot poisonous bullets, deal persistent damage to enemy"/>
+	<!--58. Demon Contract: Gain max health, damage, shoot speed, bullet speed, whenever you get to 1 health, spawn a demon attacking you-->
+	<ItemDefinition id="58" name="Demon Contract" type="DemonContract" pool="1" description="Do not Be in Risk" detail="Gain max health, attack damage, shoot speed, bullet speed, whenever you get to 1 health, spawn a small demon attacking you"
+					maxHealthModifier="1.0" bulletSpeedModifier="0.2" damageModifier="0.6" attackSpeedModifier="0.1" specialPool="Demon"/>
+	<!--59. : If you have at least 100 coins, kill the nearest enemy(except the boss), gain 1 charge when you enter an enemy room, start no charge-->
+	<ItemDefinition id="59" name="Bribe" type="Bribe" pool="3" description="The Best Way to Remove Enemy" category="Skill" detail="If you have at least 100 coins, kill the nearest enemy(except the boss), gain 1 charge when you enter an enemy room, start no charge"
+					startCharge="1" chargePerLevel="0" hasCharge="true"/>
+	<!--60. : Your attribute is decided by the amount of your money(multiply other modifier)-->
+	<ItemDefinition id="60" name="Miser" type="MoreMoneyMakesMeBetter" pool="4" description="More Money More Strong" detail="Your stats are decided by the amount of your money(multiply other modifier)"/>
+	<!--61. : If player sustain damage, gain more attack, reset in next level(floor)-->
+	<ItemDefinition id="61" name="Vengeful Heart" type="MoreDamageMoreAttack" pool="2" description="Hurt Will Make You Stronger" detail="If player sustain damage, gain more attack, reset in next level(floor)"/>
+	<!--62. : Player shoot laser instead of bullets-->
+	<ItemDefinition id="62" name="Laser" type="MainWeaponLaser" pool="4" description="Shoot Laser Instead" detail="Shoot laser instead of bullet"
+					attackSpeedModifier="-7.5f" />
+	<!--63. Accelerator: Add bullet speed, add shoot speed-->
+	<ItemDefinition id="63" name="Accelerator" type="Accelerator" pool="2" description="Add Any Speed" detail="Add bullet speed, add attack speed"
+					bulletSpeedModifier="0.2" attackSpeedModifier="0.15"/>
+	<!--64. : Add movement speed, Your damage is decided by your movement speed-->
+	<ItemDefinition id="64" name="Flexible" type="MovementDamage" pool="4" description="Higer Moving Speed, Higer Damage" detail="Add movement speed, Your damage is decided by your movement speed"
+					movingSpeedModifier="0.2"/>
+	<!--65. : lose all max armor, get the same amount of max health-->
+	<ItemDefinition id="65" name="Armor Assimilation" type="ArmorToHealth" pool="2" description="Armor to Health" detail="Lose all max armor, gain the same amount of max health"/>
+	<!--66. : Gain an armor, charge 4, add 2 charges every level-->
+	<ItemDefinition id="66" name="Self-replicated Armor" type="ArmorGenerator" pool="4" description="Replenish Armor" category="Skill" detail="Gain an armor, charge 4, add 2 charges every level"
+					startCharge="4" chargePerLevel="4" hasCharge="true"/>
+	<!--67. Strange Mushroom: Gain 3 max health, gain more damage, lose attack speed, become bigger-->
+	<ItemDefinition id="67" name="Strange Mushroom" type="BiggerBody" pool="2" description="There Are No Changes on Me!" detail="Gain 3 max health, gain more damage, lose attack speed, become bigger"
+					attackSpeedModifier="-0.8f" maxHealthModifier="3.0" damageModifier="1.f"/>
+	<!--68. : Cost 1 coin to shoot a coin, deal a lot damage, if hit enemy, 80% chance give back the coin, 20% change get 2 coins-->
+	<ItemDefinition id="68" name="Electromagnetic Gun" type="CoinGun" pool="2" description="Coin Gun" detail="Cost 1 coin to shoot a coin, deal high damage, if hit enemy, 80% chance give back the coin, 20% change get 2 coins"
+					category="SubWeapon"/>
+	<!--69. : Whenever you buy items in shops and have at least 100 coins left, add moving speed-->
+	<ItemDefinition id="69" name="Virtual Currency" type="BecomeLighter" pool="1" description="Shoes for a Ship?" detail="Whenever you buy items in shops and have at least 100 coins left, add moving speed"/>
+	<!--70. Bacteria Sprayer: Shoot spray to the front instead of bullet-->
+	<ItemDefinition id="70" name="Sprayer" type="BacteriaSprayer" pool="3" description="Learn from Those Bacteria" detail="Shoot spray instead of bullet"
+					attackSpeedModifier="-2.5f" damageModifier="0.8f"/>
+	<!--71. : Gain 1 max Armor, Deal damage when you collide with enemies-->
+	<ItemDefinition id="71" name="Spine Surface" type="CollisionDamage" pool="3" description="Collision Damage" detail="Gain 1 max Armor, Deal damage when you collide with enemies"
+					maxArmorModifier="1.0"/>
+	<!--72. : Deal 3 damage to every enemy in the room, charge 5, gain 5 charges every level, if there is no charge, you can spend 10 coin to use-->
+	<ItemDefinition id="72" name="Solor Flame" type="DamageTrap" pool="1" description="Deal Damage to All Enemies"
+					detail="Deal 3 damage to every enemy in the room, charge 5, gain 5 charges every level, if there is no charge, you can still spend 10 coin to use" category="Skill"
+					startCharge="5" chargePerLevel="5" hasCharge="true"/>
+	<!--73. : Time Stop, charge 2, gain 2 charges every level-->
+	<ItemDefinition id="73" name="Time Stop" type="TimeStop" pool="4" description="Bullet Time" category="Skill"
+					detail="Time Stop for 8 seconds, charge 2, gain 2 charges every level"
+					startCharge="2" chargePerLevel="2" hasCharge="true"/>
+	<!--74. : Gain max Health and recover from all damage-->
+	<ItemDefinition id="74" name="Overhaul" type="RecoverHealth" pool="4" description="Max Health" detail="Gain 3 max health and recover from all damage"
+					maxHealthModifier="3.0"/>
+	<!--75. Cannot see your health, gain 2 max health, gain 2 max armor-->
+	<ItemDefinition id="75" name="Iatrophobia" type="HealthBlind" pool="1" description="Keeps the Doctor Away" detail="Cannot see your health, gain 2 max health, gain 2 max armor"
+					maxHealthModifier="2.0" maxArmorModifier="2.0"/>
+	<!--76. gain 1 max health, gain damage, gain moving speed, gain bullet speed, recover 1 health-->
+	<ItemDefinition id="76" name="Good Mushroom" type="Normal" pool="4" description="Gain Attributes" detail="Gain 1 max health, gain damage, gain moving speed, gain bullet speed, recover 1 health"
+					maxHealthModifier="1.0" damageModifier="0.5" movingSpeedModifier="0.1" bulletSpeedModifier="0.1" recoverHealth="1.0"/>
+	<!--77. cool down of sub-weapon is set to 50%-->
+	<ItemDefinition id="77" name="Crew" type="SubweaponCooldown" pool="2" description="Sub-weapon Cooldown" detail="Cooldown of sub-weapon is set to 50%"/>
+	<!--78. Whenever you use all charges of your item, sustain 1 damage and gain 1 charge-->
+	<ItemDefinition id="78" name="Demon Book" type="HealthToCharge" pool="2" description="Consume Health Regain Charges" detail="After you use your skill, if it has no charge, immedietely sustain 2 damages and gain 1 charge"
+					specialPool="Demon"/>
+	<!--79. lose 1 health(direct damage), gain 1 max armor, charge 3, add 3 charges every level-->
+	<ItemDefinition id="79" name="Demon Heart" type="HealthToMaxArmor" pool="1" description="Lose Health Gain Max Armor"
+					category="Skill" detail="Deal direct damage to lose 1 health, gain 1 max armor, charge 3, add 3 charges every level"
+					startCharge="3" chargePerLevel="3" hasCharge="true" specialPool="Demon"/>
+	
+	<!--80. generate 5 health or armor pickup-->
+	<ItemDefinition id="80" name="First-Aid" type="5pickup" pool="2" description="Health Pick Up" detail="Spawn 5 health or armor pickup in room"/>
+	<!--81. shotgun-->
+	<ItemDefinition id="81" name="Shotgun" type="Shotgun" pool="3" description="Quick Sector Bullets" detail="Lose attack damage, gain bullet speed, lose bullet life time"
+					damageModifier="-0.3f" bulletSpeedModifier="2.0" bulletLifeTimeModifier="-0.9"/>
+	<!--82. shoot missile: laser>missile>spray-->
+	<ItemDefinition id="82" name="Missile" type="Missile" pool="4" description="Locate and Shoot" detail="Shoot missile instead"
+					damageModifier="2.f" attackSpeedModifier="-2.3f"/>
+	<!--83. : The first time when you come into a shop room, if you have at least 100 coins, gain 2 charges for your skill-->
+	<ItemDefinition id="83" name="Friend of GSA" type="RichCanDoAnything" pool="3" description="Richness Can Do Anything" detail="The first time when you come into a shop room, if you have at least 100 coins, gain 2 charges for your skill"/>
+	<!--84. : lose damage, gain attack speed-->
+	<ItemDefinition id="84" name="Irritable" type="Normal" pool="2" description="Lose Damage Gain Attack Speed" detail="Lose attack damage, gain attack speed"
+					damageModifier="-0.5f" attackSpeedModifier="0.5f"/>
+	<!--85. bullet's damage will grow depending on flying time-->
+	<ItemDefinition id="85" name="Bullet Enhancer" type="BulletAddDamageLifeTime" pool="1" detail="Bullet's damage will increase depending on flying time"
+					description="Bullet Damage Increase by Fly Time"/>
+	<!--86. Ice Bullet: Your bullet will let enemy slow-->
+	<ItemDefinition id="86" name="Frozen Projectile" type="IceBullet" pool="3" description="Slow Enemy" detail="Your bullet can slow down enemies"/>
+	<!--87. : Teleport to cursor position, deal damage to enemies near to you, charge 5, add 5 charges every level-->
+	<ItemDefinition id="87" name="Teleport" type="Teleport" pool="3" description="I Hate Portals." category="Skill" detail="Teleport to cursor position, deal damage to enemies nearing to you, charge 5, add 5 charges every level"
+					startCharge="5" chargePerLevel="5" hasCharge="true"/>
+	<!--88. randomize all items in the room, charge 2, add 2 charges every level-->
+	<ItemDefinition id="88" name="ItemDice" type="ItemDice" pool="4" description="Reroll All Items in Room" category="Skill" detail="Randomize all items in the room, charge 2, add 2 charges every level"
+					startCharge="2" chargePerLevel="2" hasCharge="true"/>
+	<!--89. items in shop will automatically refresh-->
+	<ItemDefinition id="89" name="Void Contract" type="ItemAutoRefresh" pool="3" description="Infinite Supply" detail="Items in shop will automatically replace after buying"/>
+	<!--90. : Get a laser wing plane-->
+	<ItemDefinition id="90" name="Laser Wing Plane" type="LaserWingPlane" pool="3" description="A Laser Wing Plane" detail="Get a wing plane shooting laser"
+					category="WingPlane"/>
+	<!--91. : Get a retinue which shoot diagonally-->
+	<ItemDefinition id="91" name="Retinue" type="Retinue" pool="1" description="Why Shooting Diagonally?" detail="Get a retinue shooting bullets diagonally"
+					category="WingPlane"/>
+	<!--92. : Get a wing plane shoot bullet machine gun-->
+	<ItemDefinition id="92" name="Wing Plane" type="WingPlane" pool="4" description="Your Faithful Friend" detail="Get a wing plane shooting bullets like a machine gun"
+					category="WingPlane"/>
+	<!--93. Electric Sub-Weapon-->
+	<ItemDefinition id="93" name="Electric Chain" type="SubWeaponElectricChain" pool="3" description="Bounce off 4 Enemies"
+					detail="Shoot an electric chain which bounce off and damage max 4 enemies" category="SubWeapon"/>
+	<!--94. Generate one level 1 shop in this level, charge 1, add 1 charge every level-->
+	<ItemDefinition id="94" name="Shop Wormhole" type="GenerateShop" pool="4" description="Generate a New Shop"
+					detail="Generate one level 1 shop in this level, charge 1, add 1 charge every level" category="Skill"
+					startCharge="1" chargePerLevel="1" hasCharge="true"/>
+	<!--95. Get Random stats, lose random stats-->
+	<ItemDefinition id="95" name="Mutative Mushroom" type="Random Stats" pool="2" description="Get Random Stats, Lose Random Stats"
+					detail="Get Random stats, lose random stats"/>
+	<!--96. Get Damage by empty health-->
+	<ItemDefinition id="96" name="Painless" type="DamageByEmptyHealth" pool="3" description="Get Damage by Empty Health"
+					detail="Get Damage by empty(damaged) health"/>
+	<!--97. Chance to shoot another spray when attacking-->
+	<ItemDefinition id="97" name="Bacteria Mushroom" type="ChanceShootSpray" pool="1" description="Chance to Shoot Spray"
+					detail="Add chance to shoot a spray when attacking"/>
+	<!--98. Demon Armor: Gain 4 max armor, when the player is damaged, randomly lose armor or health-->
+	<ItemDefinition id="98" name="Demon Armor" type="ArmorHealthRandomLose" pool="1" description="Armor Will not Protect You"
+					detail="Gain 4 max armor, when the player is damaged, randomly lose armor or health"
+					maxArmorModifier="4.0" specialPool="Demon"/>
+	<!--99. Rerandomize all your item when get damage, except self--> 
+	<ItemDefinition id="99" name="Happy Game" type="RerandomizeItemsWhenDamaged" pool="4" description="Rerandomize Items When Damaged"
+					detail="Rerandomize all items when the player get damage, excluding self"/>
+</ItemDefinitions>

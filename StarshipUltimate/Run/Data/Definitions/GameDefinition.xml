@@ -1,0 +1,10 @@
+<GameDefinition
+	bossMusic="Data/Music/BossFight.mp3"
+	>
+	<LevelSequence>
+		<Level factionName="Diamond" backgroundMusic="Data/Music/DiamondFaction.mp3"/>
+		<Level factionName="Gun" backgroundMusic="Data/Music/GunFaction.mp3"/>
+		<Level factionName="Bacteria" backgroundMusic="Data/Music/BacteriaFaction.mp3"/>
+		<Level factionName="Final" backgroundMusic="Data/Music/4thFloor.mp3"/>
+	</LevelSequence>
+</GameDefinition>

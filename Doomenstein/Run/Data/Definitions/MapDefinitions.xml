@@ -1,0 +1,60 @@
+<Definitions>
+  <MapDefinition name="Intro Map" image="Data/Maps/TestMap.png" shader="Data/Shaders/ShadowLit" 
+description="Kill all enemies in this map to win.
+No enemy will be spawned during game."
+				 spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8" gameMode="KillAllEnemies"
+				 hasPointLight="true" pointLightPosition="28.f, 14.f, 0.5f" pointLightOrientation="0.f, 0.f, 90.f"
+				 ambient="0.6f">
+    <SpawnInfos>
+      <SpawnInfo actor="SpawnPoint" position="25.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="26.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="27.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="28.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="29.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint"  position="30.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="1.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="4.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="7.5,15.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="EnemyMarine" position="26.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="EnemyMarine" position="29.5,10.5,0.0" orientation="270.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+  <MapDefinition name="2P Map" image="Data/Maps/MPMap.png" shader="Data/Shaders/ShadowLit" 
+description="Kill your opponent five times to win.
+This map can only be played by 2 players."
+				 spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8" gameMode="KillOtherPlayer"
+				    hasDirectionalLight="true" directionalLightPosition="0.f, -20.f, 35.f" directionLightOrientation="30.f, 120.f, 0.f"
+				 ambient="0.3f">
+    <SpawnInfos>
+      <SpawnInfo actor="Demon" position="15.0,7.0,0.0" />
+      <SpawnInfo actor="Demon" position="20.0,15.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="1.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="1.5,30.5f,0.0" orientation="315.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="30.5,30.5,0.0" orientation="225.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" position="30.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+	<MapDefinition name="Survival Map" image="Data/Maps/SurvivalMap.png" shader="Data/Shaders/ShadowLit" 
+description="Cooperate with your partner
+Survive in 5 waves of enemies.
+After you kill an enemy
+a cute and clever dog will fight for you!"
+				   spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8" gameMode="Survival"
+				    hasDirectionalLight="true" directionalLightPosition="0.f, -20.f, 35.f" directionLightOrientation="30.f, 120.f, 0.f"
+				   ambient="0.3f">
+		<SpawnInfos>
+			<SpawnInfo actor="SpawnPoint" position="9.5,9.5,0.0" orientation="45.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="20.5,9.5,0.0" orientation="135.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="20.5,20.5,0.0" orientation="-45.0,0.0,0.0" />
+			<SpawnInfo actor="SpawnPoint" position="9.5,20.5,0.0" orientation="-135.0,0.0,0.0" />
+			<SpawnInfo actor="EnemySpawnPoint" position="3.5,3.5,0.0" orientation="45.0,0.0,0.0" />
+			<SpawnInfo actor="EnemySpawnPoint" position="26.5,3.5,0.0" orientation="135.0,0.0,0.0" />
+			<SpawnInfo actor="EnemySpawnPoint" position="26.5,26.5,0.0" orientation="-45.0,0.0,0.0" />
+			<SpawnInfo actor="EnemySpawnPoint" position="3.5,26.5,0.0" orientation="-135.0,0.0,0.0" />
+		</SpawnInfos>
+	</MapDefinition>
+</Definitions>
+
+<!--
+				 hasPointLight="true" pointLightPosition="0.f, 0.f, 60.f" pointLightOrientation="0.f, 0.f, 150.f"
+			        hasDirectionalLight="true" directionalLightPosition="15.f, 15.f, 100.f" directionLightOrientation="0.f, 0.f, 150.f"-->

@@ -1,0 +1,305 @@
+<!--EntityDefinitions-->
+<!--
+	name:
+	
+	isEnemy: If is enemy, set to true
+	enemyLevel: 0-5; level5 is the boss; related to random room spawn level;
+	4 is for special spawns
+BulletGun
+		<Weapon weaponType="BulletGun" shootCoolDown="0.1f" weaponDamage="1.f"/>
+		<Render size="1.0" pivot="0.5,0.5" texture="0"/>Machete
+		<Weapon weaponType="BulletGun" shootCoolDown="0.1f" weaponDamage="1.f"/>-->
+<EntityDefinitions>
+	<!--Player-->
+	<EntityDefinition>
+		<Basic name="Playership" faction="Player" physicsRadius="1.5" cosmeticRadius="2.0" turnSpeed="0.0" maxHealth="3" isEnemy="false" deathParticleColor="153, 204, 255"
+			   dealDamageOnCollide="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="BulletGun" shootCoolDown="0.3f" weaponDamage="1.f"/>
+		<AI isEnabled="false"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="PlayerAsteriod" faction="Player" physicsRadius="3.6" cosmeticRadius="2.6" turnSpeed="0.0" maxHealth="10000000" isEnemy="false"
+			   dealDamageOnCollide="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="PlayerAsteriod"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiagonalRetinue" faction="Player" physicsRadius="0.01" cosmeticRadius="1.0" turnSpeed="0.0" maxHealth="10000000" isEnemy="false" enableCollision="false"
+			   dealDamageOnCollide="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="BulletGun" shootCoolDown="2.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiagonalRetinue"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="LaserWingPlane" faction="Player" physicsRadius="0.01" cosmeticRadius="1.3" turnSpeed="0.0" maxHealth="10000000" isEnemy="false" enableCollision="false"
+			   dealDamageOnCollide="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="LaserWingPlane"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="WingPlane" faction="Player" physicsRadius="0.01" cosmeticRadius="1.3" turnSpeed="0.0" maxHealth="10000000" isEnemy="false" enableCollision="false"
+			   dealDamageOnCollide="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="BulletGun" shootCoolDown="8.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="WingPlane"/>
+	</EntityDefinition>
+	
+	<!--Event or Neutral Group-->
+	<EntityDefinition>
+		<Basic name="Chest" faction="Neutral" physicsRadius="4" cosmeticRadius="4" flySpeed ="0.0" turnSpeed="0.0"
+			   maxHealth="20.0" killReward="30" dealDamageOnCollide="false" deathParticleColor="0, 0, 0" isEnemy="false"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="Chest"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="MimicChest" faction="Neutral" physicsRadius="3.0" cosmeticRadius="3.0" flySpeed ="200.0" turnSpeed="0.0"
+			   maxHealth="50.0" killReward="30" dealDamageOnCollide="false" deathParticleColor="0, 0, 0" isEnemy="true"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="CoinGun"  shootCoolDown="0.5f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="MimicChest"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="InteractableMachine" faction="Neutral" physicsRadius="6.0" cosmeticRadius="6.0" flySpeed ="0.0" turnSpeed="0.0"
+			   maxHealth="20.0" killReward="10" dealDamageOnCollide="false" deathParticleColor="0, 0, 0" isEnemy="false"/>
+		<Render size="1.0" pivot="0.5,0.5" texturePath="Data/Images/InteractableMachines.png"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="InteractableMachine"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="FinalBossMercyKiller" faction="Neutral" physicsRadius="7.0" cosmeticRadius="9.0" flySpeed ="250.0" turnSpeed="120.0"
+			   maxHealth="250.0" killReward="20" dealDamageOnCollide="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="FinalBossMercyKiller"/>
+	</EntityDefinition>
+	
+	<!--Demon Group-->
+	<!--Spawn by item 58-->
+	<EntityDefinition>
+		<Basic name="LittleDemon" faction="Demon" physicsRadius="3.1" cosmeticRadius="3.4" flySpeed ="120.0" turnSpeed="120.0"
+			   maxHealth="75.0" killReward="8" dealDamageOnCollide="true" deathParticleColor="204, 0, 0" isEnemy="true" enemyLevel="5"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="LittleDemon"/>
+	</EntityDefinition>
+	
+	<!--Diamond Group-->
+	<EntityDefinition>
+		<Basic name="DiamondWarrior" faction="Diamond" physicsRadius="2.1" cosmeticRadius="2.4" flySpeed ="200.0" turnSpeed="150.0" 
+			   maxHealth="7.0" killReward="2" dealDamageOnCollide="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="0"/>
+		<Render size="1.0" pivot="0.5,0.5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="DiamondWarrior"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondRayShooter" faction="Diamond" physicsRadius="1.9" cosmeticRadius="2.3" flySpeed ="250.0" turnSpeed="120.0" 
+			   maxHealth="6.0" killReward="3" dealDamageOnCollide="false" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="RayShooter" shootCoolDown="1.8f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondRayShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondStriker" faction="Diamond" physicsRadius="2.6" cosmeticRadius="2.8" flySpeed ="150.0" turnSpeed="90.0" 
+			   maxHealth="5.0" killReward="5" dealDamageOnCollide="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="DiamondStriker"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondReflector" faction="Diamond" physicsRadius="2.9" cosmeticRadius="4.0" flySpeed ="30.0" turnSpeed="90.0" 
+			   maxHealth="15.0" killReward="4" dealDamageOnCollide="false" isReflector="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="RayReflectorShooter" shootCoolDown="5.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondReflector"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondShieldRayShooter" faction="Diamond" physicsRadius="2.0" cosmeticRadius="2.2" flySpeed ="200.0" turnSpeed="75.0" 
+			   maxHealth="6.0" killReward="6" dealDamageOnCollide="false" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="RayShooter" shootCoolDown="2.2f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondRayShooter" isShielded="true"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondDoubleRayShooter" faction="Diamond" physicsRadius="2.8" cosmeticRadius="2.9" flySpeed ="160.0" turnSpeed="75.0"
+			   maxHealth="12.0" killReward="5" dealDamageOnCollide="false" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="RayShooter" shootCoolDown="2.8f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondDoubleRayShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondMiner" faction="Diamond" physicsRadius="2.2" cosmeticRadius="2.5" flySpeed ="125.0" turnSpeed="60.0"
+			   maxHealth="10.0" killReward="3" dealDamageOnCollide="false" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="RayShooter" shootCoolDown="2.2f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondMiner"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondBossAssassin" faction="Diamond" physicsRadius="2.8" cosmeticRadius="2.6" flySpeed ="250.0" turnSpeed="120.0"
+			   maxHealth="70.0" killReward="20" dealDamageOnCollide="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="Machete" shootCoolDown="5.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="DiamondBossAssassin"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondBossSuperMiner" faction="Diamond" physicsRadius="3.0" cosmeticRadius="3.0" flySpeed ="300.0" turnSpeed="0.0"
+			   maxHealth="50.0" killReward="20" dealDamageOnCollide="true" deathParticleColor="192, 192, 192" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="DiamondBossSuperMiner"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="DiamondBossRayChannel" faction="Diamond" physicsRadius="5.0" cosmeticRadius="5.0" flySpeed ="120.0" turnSpeed="30.0"
+			   maxHealth="100.0" killReward="20" dealDamageOnCollide="true" deathParticleColor="204, 102, 0" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="DiamondBossRayChannel"/>
+	</EntityDefinition>
+
+	<!--Gun Faction Group-->
+	<EntityDefinition>
+		<Basic name="GunShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="135.0" turnSpeed="60.0"
+			   maxHealth="7.0" killReward="2" dealDamageOnCollide="false" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="2.3f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="GunShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="MachineGunShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="80.0" turnSpeed="45.0"
+			   maxHealth="7.0" killReward="5" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="0.4f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="MachineGunShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="ShieldMachineGunShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="60.0" turnSpeed="40.0"
+			   maxHealth="7.0" killReward="6" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="0.5f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="MachineGunShooter" isShielded="true"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="SectorGunShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="80.0" turnSpeed="75.0"
+			   maxHealth="7.0" killReward="3" dealDamageOnCollide="false" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="4.7f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="SectorGunShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="ShotGunShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="150.0" turnSpeed="75.0"
+			   maxHealth="9.0" killReward="3" dealDamageOnCollide="false" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="2.2f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="ShotGunShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="Sniper" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="75.0" turnSpeed="90.0"
+			   maxHealth="7.0" killReward="4" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="4.2f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="Sniper"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="MissileShooter" faction="Gun" physicsRadius="2.4" cosmeticRadius="2.5" flySpeed ="60.0" turnSpeed="60.0"
+			   maxHealth="8.0" killReward="5" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="MissileGun" shootCoolDown="0.5f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="MissileShooter"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="GunTwinElder" faction="Gun" physicsRadius="3.2" cosmeticRadius="3.4" flySpeed ="80.0" turnSpeed="45.0"
+			   maxHealth="90.0" killReward="10" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="0.4f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="GunTwinElder"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="GunTwinYoung" faction="Gun" physicsRadius="3.2" cosmeticRadius="3.4" flySpeed ="100.0" turnSpeed="60.0"
+			   maxHealth="80.0" killReward="10" dealDamageOnCollide="true" isEnemy="true" enemyLevel="4"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="0.4f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="GunTwinYoung"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="GunAudience" faction="Gun" physicsRadius="2.3" cosmeticRadius="2.5" flySpeed ="200.0" turnSpeed="60.0"
+			   maxHealth="4.0" killReward="0" dealDamageOnCollide="false" isEnemy="false" enemyLevel="4"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="3.0f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="GunAudience"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BossDoubleGun" faction="Gun" physicsRadius="3.0" cosmeticRadius="3.0" flySpeed ="150.0" turnSpeed="90.0"
+			   maxHealth="100000000.0" killReward="20" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="EnemyBulletGun" shootCoolDown="0.7f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="BossDoubleGun"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BossArmsMaster" faction="Gun" physicsRadius="2.8" cosmeticRadius="3.2" flySpeed ="200.0" turnSpeed="90.0"
+			   maxHealth="160.0" killReward="20" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BossArmsMaster"/>
+	</EntityDefinition>
+	
+	<!--Bacteria Group  6 3 5 -->
+	<EntityDefinition>
+		<Basic name="SmallBacteria" faction="Bacteria" physicsRadius="2.6" cosmeticRadius="2.6" flySpeed ="200.0" turnSpeed="90.0"
+			   maxHealth="6.0" killReward="2" dealDamageOnCollide="true" isEnemy="true" enemyLevel="0"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="SmallBacteria"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="TinyBacteria" faction="Bacteria" physicsRadius="1.5" cosmeticRadius="1.5" flySpeed ="270.0" turnSpeed="120.0"
+			   maxHealth="3.0" killReward="0" dealDamageOnCollide="true" isEnemy="true" enemyLevel="4"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="TinyBacteria"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="MediumBacteria" faction="Bacteria" physicsRadius="3.6" cosmeticRadius="3.6" flySpeed ="150.0" turnSpeed="75.0"
+			   maxHealth="10.0" killReward="3" dealDamageOnCollide="true" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="MediumBacteria"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="LargeBacteria" faction="Bacteria" physicsRadius="4.6" cosmeticRadius="4.6" flySpeed ="120.0" turnSpeed="60.0"
+			   maxHealth="15.0" killReward="5" dealDamageOnCollide="true" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="LargeBacteria"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaMothership" faction="Bacteria" physicsRadius="3.2" cosmeticRadius="3.2" flySpeed ="80.0" turnSpeed="45.0"
+			   maxHealth="12.0" killReward="4" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaMothership"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaBreeder" faction="Bacteria" physicsRadius="2.5" cosmeticRadius="2.5" flySpeed ="120.0" turnSpeed="60.0"
+			   maxHealth="12.0" killReward="5" dealDamageOnCollide="false" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaBreeder"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaSpawn" faction="Bacteria" physicsRadius="2.0" cosmeticRadius="2.0" flySpeed ="0.0" turnSpeed="0.0"
+			   maxHealth="6.0" killReward="0" dealDamageOnCollide="false" isEnemy="true" enemyLevel="4"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaSpawn"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaSprayer" faction="Bacteria" physicsRadius="2.4" cosmeticRadius="2.4" flySpeed ="150.0" turnSpeed="90.0"
+			   maxHealth="12.0" killReward="3" dealDamageOnCollide="false" isEnemy="true" enemyLevel="1"/>
+		<Weapon weaponType="Spray" shootCoolDown="3.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="BacteriaSprayer"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaFusion" faction="Bacteria" physicsRadius="3.5" cosmeticRadius="3.5" flySpeed ="120.0" turnSpeed="90.0"
+			   maxHealth="20.0" killReward="6" dealDamageOnCollide="true" isEnemy="true" enemyLevel="2"/>
+		<Weapon weaponType="Spray" shootCoolDown="3.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="BacteriaFusion"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaBossTheGreatFusion" faction="Bacteria" physicsRadius="4.2" cosmeticRadius="4.2" flySpeed ="100.0" turnSpeed="90.0"
+			   maxHealth="180.0" killReward="20" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="Spray" shootCoolDown="3.f" weaponDamage="1.f"/>
+		<AI isEnabled="true" aiBehavior="BacteriaBossTheGreatFusion"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaBossMarshKing" faction="Bacteria" physicsRadius="4.2" cosmeticRadius="4.2" flySpeed ="180.0" turnSpeed="90.0"
+			   maxHealth="400.0" killReward="20" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaBossMarshKing"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaBossThreeSisters" faction="Bacteria" physicsRadius="1.0" cosmeticRadius="1.0" flySpeed ="0.0" turnSpeed="0.0"
+			   maxHealth="100.0" killReward="20" dealDamageOnCollide="true" isEnemy="true" enemyLevel="5"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaBossThreeSisters"/>
+	</EntityDefinition>
+	<EntityDefinition>
+		<Basic name="BacteriaBossSister" faction="Bacteria" physicsRadius="3.0" cosmeticRadius="3.0" flySpeed ="180.0" turnSpeed="90.0"
+			   maxHealth="90.0" killReward="0" dealDamageOnCollide="true" isEnemy="true" enemyLevel="4"/>
+		<Weapon weaponType="None"/>
+		<AI isEnabled="true" aiBehavior="BacteriaBossSister"/>
+	</EntityDefinition>
+</EntityDefinitions>

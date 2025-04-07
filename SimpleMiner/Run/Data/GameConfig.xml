@@ -1,0 +1,8 @@
+<GameConfig
+	autoCreateChunks="true"
+	hiddenSurfaceRemovalEnable="true"
+	chunkActivationDistance="250"
+	saveModifiedChunks="true"
+	worldSeed="5"
+/>
+

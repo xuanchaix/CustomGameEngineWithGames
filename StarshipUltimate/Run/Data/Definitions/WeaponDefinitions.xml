@@ -1,0 +1,13 @@
+<!--WeaponDefinitions-->
+
+<WeaponDefinitions>
+	<WeaponDefinition name="BulletGun"  projectile="Bullet" behavior="BulletGun" projectileName="Bullet"/>
+	<WeaponDefinition name="RayShooter" behavior="RayShooter" canTriggerReflection="true" projectileName="None"/>
+	<WeaponDefinition name="RayReflectorShooter" behavior="RayShooter" canTriggerReflection="false" projectileName="None"/>
+	<WeaponDefinition name="Machete" behavior="Machete" canTriggerReflection="false" projectileName="None"/>
+	<WeaponDefinition name="RocketLauncher" behavior="RocketLauncher" canTriggerReflection="false" projectileName="Rocket"/>
+	<WeaponDefinition name="EnemyBulletGun" behavior="EnemyBulletGun" canTriggerReflection="false" projectileName="EnemyBullet"/>
+	<WeaponDefinition name="MissileGun" behavior="MissileGun" canTriggerReflection="false" projectileName="CurveMissile"/>
+	<WeaponDefinition name="Spray" behavior="Spray" canTriggerReflection="false" projectileName="None"/>
+	<WeaponDefinition name="CoinGun" behavior="CoinGun" canTriggerReflection="false" projectileName="CoinBullet"/>
+</WeaponDefinitions>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{c2f8cc26-f828-41e4-8c0a-24173cb8f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{ad228917-74ef-427c-b2d2-ed2f8fcbb77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Enemies">
+      <UniqueIdentifier>{05bc17be-9a30-493a-9f97-2d6e6286d770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Effects">
+      <UniqueIdentifier>{b6e4eedc-8d92-4760-beb3-e9c625e28f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Projectiles">
+      <UniqueIdentifier>{926d104f-342c-4dbc-bc9d-83f5c03ee0f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Beetle.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Wasp.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Debris.cpp">
+      <Filter>Entities\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDestroyer.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFirstExplorer.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ConeAttack.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBeam.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSaber.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDestroyerTurret.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SummonLight.cpp">
+      <Filter>Entities\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrier.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMotherOfCarrier.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Entities\Effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Beetle.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Wasp.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Debris.hpp">
+      <Filter>Entities\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDestroyer.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFirstExplorer.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ConeAttack.hpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBeam.hpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSaber.hpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.hpp">
+      <Filter>Entities\Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDestroyerTurret.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SummonLight.hpp">
+      <Filter>Entities\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrier.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMotherOfCarrier.hpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.hpp">
+      <Filter>Entities\Effects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

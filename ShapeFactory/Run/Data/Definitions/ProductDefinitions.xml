@@ -1,0 +1,77 @@
+<ProductDefinitions numOfProducts="13">
+
+	<ProductDefinition id="0" isRaw="true" name="iron ore" shortName="A"
+					   iconTexture="Data\Images\Products\iron-ore.png"/> <!--iron ore-->
+	<ProductDefinition id="1" isRaw="true" name="stone ore" shortName="B"
+					   iconTexture="Data\Images\Products\stone-ore.png"/> <!--stone ore-->
+	<ProductDefinition id="2" isRaw="true" name="copper ore" shortName="C"
+					   iconTexture="Data\Images\Products\copper-ore.png"/> <!--copper ore-->
+	<ProductDefinition id="3" isRaw="true" name="coal" shortName="D"
+					   iconTexture="Data\Images\Products\coal.png"/> <!--coal-->
+	<ProductDefinition id="4" isRaw="true" name="catalyst" shortName="E"
+					   iconTexture="Data\Images\Products\catalyst.png"/> <!--catalyst-->
+	
+	<ProductDefinition id="5" isRaw="false" name="iron plate" shortName="AAD" factory="Refinery" 
+					   iconTexture="Data\Images\Products\iron-plate.png"> <!--iron plate-->
+		<Recipe produceCount="1" productionTime="2.0">
+			<Product id="0" name="iron ore" count="2"/>
+			<Product id="3" name="coal" count="1"/>
+		</Recipe>
+	</ProductDefinition>
+	<ProductDefinition id="6" isRaw="false" name="stone brick" shortName="BBB" factory="Refinery" 
+					   iconTexture="Data\Images\Products\stone-brick.png"> <!--stone brick-->
+		<Recipe produceCount="1" productionTime="3.0">
+			<Product id="1" name="stone ore" count="3"/>
+		</Recipe>
+	</ProductDefinition>
+	<ProductDefinition id="7" isRaw="false" name="refined coal" shortName="DDD" factory="Refinery" 
+					   iconTexture="Data\Images\Products\refined-coal.png"> <!--refined coal-->
+		<Recipe produceCount="1" productionTime="1.5">
+			<Product id="3" name="coal" count="3"/>
+		</Recipe>
+	</ProductDefinition>
+
+	<ProductDefinition id="8" isRaw="false" name="circuit" shortName="AACCD" factory="Blender" 
+					   iconTexture="Data\Images\Products\circuit.png">
+		<Recipe produceCount="1" productionTime="1.4">
+			<Product id="5" name="iron plate" count="1"/>
+			<Product id="2" name="copper ore" count="2"/>
+		</Recipe>
+	</ProductDefinition>
+
+	<ProductDefinition id="9" isRaw="false" isProjectile="true" normalProjectileID="0" name="normal bullet magazine" 
+					   shortName="AAAADD" factory="Blender" guidedProjectileID="4" shellProjectileID="8"
+					   iconTexture="Data\Images\Products\normal-magazine.png">
+		<Recipe produceCount="1" productionTime="2.0">
+			<Product id="5" name="iron plate" count="2"/>
+		</Recipe>
+	</ProductDefinition>
+
+	<ProductDefinition id="10" isRaw="false" isProjectile="true" normalProjectileID="1" name="piercing bullet magazine" 
+					   shortName="AAAABBDD" factory="Blender" guidedProjectileID="5" shellProjectileID="9"
+					   iconTexture="Data\Images\Products\piercing-magazine.png">
+		<Recipe produceCount="1" productionTime="2.0">
+			<Product id="1" name="stone ore" count="2"/>
+			<Product id="9" name="normal bullet magazine" count="1"/>
+		</Recipe>
+	</ProductDefinition>
+
+	<ProductDefinition id="11" isRaw="false" isProjectile="true" normalProjectileID="2" name="paralyzer bullet magazine" 
+					   shortName="AAAACCDD" factory="Blender" guidedProjectileID="6" shellProjectileID="10"
+					   iconTexture="Data\Images\Products\paralyzer-magazine.png">
+		<Recipe produceCount="1" productionTime="2.0">
+			<Product id="2" name="copper ore" count="2"/>
+			<Product id="9" name="normal bullet magazine" count="1"/>
+		</Recipe>
+	</ProductDefinition>
+
+	<ProductDefinition id="12" isRaw="false" isProjectile="true" normalProjectileID="3" name="burning bullet magazine" 
+					   shortName="AAAADDDD" factory="Blender" guidedProjectileID="7" shellProjectileID="11"
+					   iconTexture="Data\Images\Products\burning-magazine.png">
+		<Recipe produceCount="1" productionTime="2.0">
+			<Product id="3" name="coal" count="2"/>
+			<Product id="9" name="normal bullet magazine" count="1"/>
+		</Recipe>
+	</ProductDefinition>
+	
+</ProductDefinitions>

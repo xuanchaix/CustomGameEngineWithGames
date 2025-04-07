@@ -1,0 +1,68 @@
+prov_capital,Capital
+prov_economy,Economy
+prov_population,Population
+prov_uncaltivated,Uncultivated
+prov_owner,Owner
+prov_info_capital,Captical
+prov_info_major_prov,Major
+prov_info_plain,Plain
+prov_info_mountain,Mountain
+force,Force
+force_action_point,Action Point
+force_army_num,Army
+force_uncultivated,Uncultivated
+army_owner,Owner
+army_size,Size
+army_uncultivated,Uncultivated
+rank_button,Rank
+ATR_button,ATT
+DEF_button,DEF
+DEV_button,DEV
+VLD_button,VLD
+ARM_button,ARM
+RCT_button,RCT
+RCT5_button,RCT5
+SAVE_button,Save
+attract_start_game_button,Begin New Game
+attract_load_game_button,Load Saves
+attract_exit_game_button,Exit Game
+illegally_occupied,ILLEGALLY OCCUPIED
+legal_progress,Legal Progress
+round,Round
+num_of_player,Num
+name_of_player,Player
+START_button,START
+ADDPLY_button,+
+SUBPLY_button,-
+NXTPLY_button,N
+PRVPLY_button,P
+force_info_economy,Economy Strength
+force_info_military,Military Strength
+force_info_action_points,Action Point
+force_info_uncultivated,Uncultivated
+force_info_population,Total Population
+br_battle_of,Battle of
+br_attacker_size,Attacker Size
+br_defender_size,Defender Size
+br_dice_roll_result,Dice Roll Result
+br_attacker_casualities,Attacker Casualities
+br_defender_casualities,Defender Casualities
+br_remain_size,Remain Size
+br_win,Victory
+br_lose,Lose
+br_siege_of,Siege of
+br_province_defense,Province Defense
+br_attacker_remain_size,Attacker Remain Size
+br_province_remain_defense,Province Remain Defense
+br_province_surrendered,Province Surrendered
+br_keep_sieging,Keep Sieging
+yuan_he_zhong_xing_scenario_name,Yuanhe Renaissance
+yuan_he_zhong_xing_scenario_desc,After the Anshi Rebellion, the problem of separatist vassal towns appeared in the Tang Dynasty. Some local Jiedushi supported their own troops and formed their own country, which affected the central government's control over local areas and weakened the central government's ruling power. Among them, the three towns of Heshuo are the most domineering. When Dezong was in power, in view of the lack of central military strength, he adopted an appeasement policy towards the feudal towns, but abuses gradually occurred. After Emperor Xianzong succeeded his father Shunzong in Yongzhen Neishan event, he determined to impose legal sanctions on the vassal towns and used troops to deal with the powerful vassals, and achieved certain results.
+6_player_stupid_monarch_scenario_name,Balanced 6 Players
+6_player_stupid_monarch_scenario_desc,Classical 6 player mode of stupid monarch.
+er_di_si_wang_scenario_name,Jingyuan mutiny
+er_di_si_wang_scenario_desc,After Tang Dezong ascended the throne, he tried to control the vassals. In the first month of the second year of Jianzhong, Li Baochen, the Chengde Jiedushi, died. His son Li Weiyue petitioned the court to succeed his father, and Wei Bo Jiedushi Tian Yue also made the request on his behalf. Dezong firmly refused. Li and Tian joined forces with Pinglu Jiedushi Li Zhengji, Shannandongdao Jiedushi Liang Chongyi and others to rebel against the Tang Dynasty. In the seventh month, Li Zhengji died, and in the eighth month, his son Li Na also asked to succeed his father. Dezong refused again. In the first month of the fourth year of Jianzhong's reign, Li Xilie, the military governor of Huaixi, rebelled and attacked Xiangcheng. Dezong sent soldiers from Jingyuan to attack. When soldiers from Jingyuan passed through Chang'an, they kidnapped Jiedushi Yao Lingyan and rebelled because of insufficient rewards. Dezong fled to Fengtian. The rebels elected Zhu Si as their leader, which is known as the Jingyuan Incident in history. Because in this war, four people were called kings and two were called emperors, namely Zhu Tao was called King of Ji, Wang Wujun was called King of Zhao, Tian Yue was called King of Wei, Li Na was called King of Qi, Zhu Si was called Emperor of Qin, and Li Xilie was called Emperor Chu, so it is called the Rebellion of Two Emperors and Four Kings.
+wu_dai_shi_guo_scenario_name,Five Dynasties andTen Kingdoms period
+wu_dai_shi_guo_scenario_desc,The Five Dynasties and Ten Kingdoms were essentially a continuation of the late Tang Dynasty’s politics and feudal rule. After the fall of the Tang Dynasty, vassal towns all over the country established their own states one after another. Among them, those located in North China had strong military power and claimed to inherit the unified central government and revolutionized the Five Dynasties, so they were collectively called the "Five Dynasties". Except for the first and last two generations, Later Liang and Later Zhou, which were founded by Han people, the middle three generations, Later Tang, Later Jin and Later Han, were founded by Shatuo. Although the "Five Dynasties" seemed to be relatively powerful, they were still unable to control the entire China; other vassal towns on one side of the separatist regime either established themselves as emperors or regarded the Five Dynasties as their orthodoxy. Among them, ten countries with longer reigns and stronger national power were Collectively known as the "Ten Kingdoms". During this period, local officials often rebelled and seized the throne, causing wars to continue for years and the rulers to resort to force and restraint. The civil strife in the center of China also gave the Khitan Kingdom the opportunity to invade south, and the Liao Dynasty was established. This period was also a period of reorganization of geographical relations between the Tang and Song Dynasties.
+4_player_stupid_monarch_scenario_name,Balanced 4 Players
+4_player_stupid_monarch_scenario_desc,4 player mode of stupid monarch.

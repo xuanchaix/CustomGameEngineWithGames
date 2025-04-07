@@ -1,0 +1,20 @@
+<EnemyDefinitions>
+
+	<EnemyDefinition name="Small Biter" id = "0" damage="2.f" maxHealth="4.f" movingSpeed="2.f" turnSpeed="180.f" attackCooldown="1.f" range="0.f" 
+					 AIName="NearestTarget" physicsBounds="1.f, 1.f" visualBounds="1.5f, 1.5f" tintColor="255, 255, 255, 255"
+					runSprite0Path="Data/Images/Enemies/Biter/biter-run-1.png" runSprite0Layout="8, 8"
+					runSprite1Path="Data/Images/Enemies/Biter/biter-run-2.png" runSprite1Layout="8, 8"
+					runSprite2Path="Data/Images/Enemies/Biter/biter-run-3.png" runSprite2Layout="8, 8"
+					runSprite3Path="Data/Images/Enemies/Biter/biter-run-4.png" runSprite3Layout="8, 8"
+					attackSprite0Path="Data/Images/Enemies/Biter/biter-attack-1.png" attackSprite0Layout="11, 4"
+					attackSprite1Path="Data/Images/Enemies/Biter/biter-attack-2.png" attackSprite1Layout="11, 4"
+					attackSprite2Path="Data/Images/Enemies/Biter/biter-attack-3.png" attackSprite2Layout="11, 4"
+					attackSprite3Path="Data/Images/Enemies/Biter/biter-attack-4.png" attackSprite3Layout="11, 4"
+					dieSprite0Path="Data/Images/Enemies/Biter/biter-die-1.png" dieSprite0Layout="8, 9"
+					dieSprite1Path="Data/Images/Enemies/Biter/biter-die-2.png" dieSprite1Layout="8, 9"
+					dieSprite2Path="Data/Images/Enemies/Biter/biter-die-3.png" dieSprite2Layout="8, 9"
+					dieSprite3Path="Data/Images/Enemies/Biter/biter-die-4.png" dieSprite3Layout="8, 7"
+					 />
+
+
+</EnemyDefinitions>

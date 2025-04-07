@@ -1,0 +1,380 @@
+<!--
+Rgba8 const ENEMY_SCORPIO = Rgba8( 255, 0, 0, 255 );
+Rgba8 const ENEMY_LEO = Rgba8( 155, 0, 0, 255 );
+Rgba8 const ENEMY_ARIES = Rgba8( 55, 0, 0, 255 );
+Rgba8 const ENEMY_CAPRICORN = Rgba8( 255, 100, 100, 255 );
+Rgba8 const ENEMY_CANCER = Rgba8( 255, 200, 200, 255 );
+Rgba8 const ALLY_SCORPIO = Rgba8( 0, 0, 255, 255 );
+Rgba8 const ALLY_LEO = Rgba8( 0, 0, 155, 255 );
+Rgba8 const ALLY_ARIES = Rgba8( 0, 0, 55, 255 );
+Rgba8 const ALLY_CAPRICORN = Rgba8( 100, 100, 255, 255 );
+Rgba8 const ALLY_CANCER = Rgba8( 200, 200, 255, 255 );
+
+
+		name="" // map name (cannot be the same as others)
+		dimensions="" // how big the map is
+		fileTileType="" // basic floor tile
+		borderTileType=""
+		bunkerWallTileTypw="" // start and end position tile
+		bunkerFloorTileType=""
+		
+		// randomly grow worm tile
+		worm1TileType="LongGrass"	worm1Count="30"	worm1MaxLength="6"
+		worm2TileType="StoneWall"	worm2Count="30"	worm2MaxLength="4"
+		worm3TileType="StoneWall"	worm3Count="30"	worm3MaxLength="4"
+		
+		// number of start enemy(randomly placed)
+		numOfAries ="5"
+		numOfLeo="5"
+		numOfScorpio="5"
+		numOfCapricorn="0"
+		numOfCancer="0"
+		
+		// how many reinforcements times add to whole game
+		addReinforcements="8"
+		// what do start several reinforcements look like
+		reinforcemets="0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0"
+		
+		// task enemy info
+		enemyReinforcements="10"
+		enemyReinTime=""
+		enemyReinMapPos=""
+		-->
+<!--reinforcements no scorpio-->
+<MapDefinitions>
+	<!-- task: go to exit -->
+	<MapDefinition
+		name="RoadToMoscow"
+		dimensions="30, 20"
+		fillTileType="SHORT_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		mapImageName="Data/Images/RoadToMoscow.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/RoadToMoscowStartEntity.png"
+		
+		addReinforcements="8"
+		reinforcements="0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0; 0,4,0,0; 1,3,0,0"
+		
+		enemyReinforcements="4"
+		enemyReinfTime="5.0; 10.0; 15.0; 20.0"
+		enemyReinfMapPos="25, 18; 28, 15; 28, 18; 28, 18"
+		enemyReinfDetails="0,2,0,0; 1,1,0,0; 0,2,0,0; 1,0,0,1"
+		
+		task1Type="Breakthrough"
+		/>
+	<!-- task: kill all enemies -->
+	<MapDefinition
+		name="ClearBattleFieldInWinter"
+		dimensions="30, 30"
+		fillTileType="SNOW_PLAIN"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		mapImageName="Data/Images/ClearBattleFieldInWinter.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/ClearBattleFieldInWinterEntity.png"
+		
+		addReinforcements="4"
+		reinforcements="1,2,0,1; 1,3,0,0; 1,3,0,0; 1,2,0,1"		
+		
+		enemyReinforcements="6"
+		enemyReinfTime="5.0; 10.0; 15.0; 20.0; 25.0; 30.0"
+		enemyReinfMapPos="20, 19; 20, 19; 20, 19; 20, 19; 28, 28; 28, 28"
+		enemyReinfDetails="0,2,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0; 1,0,0,1; 1,1,0,0"
+		
+		task1Type="Clear"
+		/>
+	<!-- task: defense -->
+	<MapDefinition
+		name="2ndKharkov"
+		dimensions="20, 20"
+		fillTileType="LONG_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		mapImageName="Data/Images/2ndKharkov.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/2ndKharkovEntity.png"
+		
+		addReinforcements="8"
+		reinforcements="2,3,0,0; 1,2,1,1; 2,1,1,1; 4,1,0,0; 3,0,1,1; 1,2,0,2; 2,2,0,1; 2,2,1,0"
+		
+		enemyReinforcements="60"
+		enemyReinfTime="20.0; 20.0; 20.0; 20.0; 20.0; 20.0; 20.0; 20.0; 20.0; 20.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0;
+						60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0;
+						100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 120.0; 120.0; 120.0; 120.0; 120.0; 120.0; 120.0; 120.0; 120.0; 120.0"
+		enemyReinfMapPos="18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2;
+						  18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2;
+						  18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2;
+						  18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2;
+						  18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2;
+						  18, 18; 18, 16; 18, 14; 18, 12; 18, 11; 18, 10; 18, 8; 18, 6; 18, 4; 18, 2"
+		enemyReinfDetails="1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 0,3,0,0; 1,1,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 0,3,0,0; 1,1,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 0,3,0,0; 1,1,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 0,3,0,0; 1,1,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 0,3,0,0; 1,1,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 0,3,0,0; 1,1,0,1"
+		
+		task1Type="Defense"
+		task1Time="135.0"
+		/>
+	<!-- task: go to exit -->
+	<MapDefinition
+		name="Caucasus"
+		dimensions="40, 25"
+		fillTileType="LONG_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		mapImageName="Data/Images/Caucasus.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/CaucasusEntity.png"
+		
+		addReinforcements="3"
+		reinforcements="2,3,0,0; 2,3,0,0; 2,2,0,1"
+	
+		enemyReinforcements="6"
+		enemyReinfTime="15.0; 15.0; 30.0; 30.0; 50.0; 50.0"
+		enemyReinfMapPos="10, 23; 29, 1; 10, 23; 23, 1; 10, 23; 38, 23"
+		enemyReinfDetails="0,3,0,1; 1,1,0,0; 0,3,0,1; 1,1,0,0; 0,3,0,1; 1,1,0,0"
+		
+		task1Type="Breakthrough"
+		/>
+	<!-- task: kill all enemies -->
+	<MapDefinition
+		name="Stalingrad"
+		dimensions="40, 40"
+		fillTileType="CITY_FLOOR"
+		borderTileType="STEEL_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		addReinforcements="2"
+		reinforcements="1,3,0,0; 1,3,0,0"
+		
+		mapImageName="Data/Images/Stalingrad.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/StalingradEntity.png"
+		
+		enemyReinforcements="16"
+		enemyReinfTime="20.0; 20.0; 20.0; 20.0; 40.0; 40.0; 40.0; 40.0; 60.0; 60.0; 60.0; 60.0; 80.0; 80.0; 80.0; 80.0"
+		enemyReinfMapPos="38, 3; 38, 12; 38, 27; 38, 35; 38, 3; 38, 12; 38, 27; 38, 35; 38, 3; 38, 12; 38, 27; 38, 35; 38, 3; 38, 12; 38, 27; 38, 35"
+		enemyReinfDetails="0,3,0,0; 1,1,1,0; 0,3,0,0; 1,1,1,0; 0,3,0,0; 1,1,1,0; 0,2,0,1; 1,1,1,0; 0,3,0,0; 1,1,1,0; 0,3,0,0; 1,1,1,0; 0,3,0,0; 1,1,1,0; 0,2,0,1; 1,1,1,0"
+		
+		task1Type="Clear"
+		/>
+	<!-- task: capture the banner -->
+	<MapDefinition
+		name="Manstein'sCounterStrick"
+		dimensions="40, 30"
+		fillTileType="SHORT_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		addReinforcements="5"
+		reinforcements="2,2,0,1; 4,0,0,1; 3,1,0,1; 4,1,0,0; 1,2,0,2"
+		
+		mapImageName="Data/Images/Manstein'sCounterStrick.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/Manstein'sCounterStrickEntity.png"
+		
+		enemyReinforcements="60"
+		enemyReinfTime="60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60; 60;
+		80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80; 80"
+		enemyReinfMapPos="38, 28; 38, 27; 38, 26; 38, 25; 38, 24; 38, 23; 38, 22; 38, 21; 38, 20; 38, 19;
+						  38, 18; 38, 17; 38, 16; 38, 15; 38, 14; 38, 13; 38, 12; 38, 11; 37, 28; 36, 28;
+						  35, 28; 34, 28; 33, 28; 32, 28; 31, 28; 30, 28; 29, 28; 28, 28; 27, 28; 26, 28;
+						  38, 28; 38, 27; 38, 26; 38, 25; 38, 24; 38, 23; 38, 22; 38, 21; 38, 20; 38, 19;
+						  38, 18; 38, 17; 38, 16; 38, 15; 38, 14; 38, 13; 38, 12; 38, 11; 37, 28; 36, 28;
+						  35, 28; 34, 28; 33, 28; 32, 28; 31, 28; 30, 28; 29, 28; 28, 28; 27, 28; 26, 28"
+		
+		enemyReinfDetails="0,2,0,0; 0,2,0,0; 0,2,0,0; 0,1,1,0; 1,1,0,0; 1,1,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0;
+						   0,2,0,0; 0,2,0,0; 0,2,0,0; 0,1,1,0; 1,1,0,0; 1,1,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0;
+						   0,2,0,0; 0,2,0,0; 0,2,0,0; 0,1,1,0; 1,1,0,0; 1,1,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0; 0,2,0,0;
+						   0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0;
+						   0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0;
+						   0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0; 0,1,0,0"
+		
+		
+		task1Type="Capture"
+		task1Time="120.0"
+		/>
+	<!-- task: go to exit -->
+	<MapDefinition
+		name="Withdraw"
+		dimensions="30, 30"
+		fillTileType="LONG_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		addReinforcements="3"
+		reinforcements="0,5,0,0; 0,4,0,1; 1,3,1,0"
+		
+
+		
+		task1Type="Breakthrough"
+		/>
+	<!-- task: defense -->
+	<MapDefinition
+		name="Budapest"
+		dimensions="40, 30"
+		fillTileType="CITY_FLOOR"
+		borderTileType="STEEL_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		addReinforcements="4"
+		reinforcements="2,2,0,0; 0,4,0,0; 2,0,0,2; 1,3,0,0"
+		mapImageName="Data/Images/Budapest.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/BudapestEntity.png"
+		
+		enemyReinforcements="60"
+		enemyReinfTime="10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0;
+						60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0;
+						100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 100.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0"
+		enemyReinfMapPos="38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28;
+						  38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28;
+						  38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28;
+						  38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28;
+						  38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28;
+						  38, 26; 38, 25; 38, 20; 38, 15; 38, 9; 38, 5; 38, 4; 28, 28; 31, 1; 20, 28"
+		enemyReinfDetails="1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,3,0,0; 1,3,0,0; 1,2,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,3,0,0; 1,3,0,0; 1,2,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,3,0,0; 1,3,0,0; 1,2,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,3,0,0; 1,3,0,0; 1,2,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,3,0,0; 1,3,0,0; 1,2,0,1;
+						   1,1,0,1; 0,3,0,0; 1,2,0,0; 0,1,1,1; 1,2,0,0; 1,2,0,0; 0,1,1,1; 1,3,0,0; 1,3,0,0; 1,2,0,1"
+		
+		task1Type="Defense"
+		task1Time="200.0"
+		/>
+	<!-- task: defense -->
+	<MapDefinition
+		name="Berlin"
+		dimensions="50, 40"
+		fillTileType="CITY_FLOOR"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		
+		addReinforcements="4"
+		reinforcements="0,2,0,2; 3,0,1,0; 0,3,0,1; 1,4,0,0"
+		mapImageName="Data/Images/Berlin.png"
+		mapImageOffset="0, 0"
+		startEntityImagePath="Data/Images/BerlinEntity.png"
+		
+		enemyReinforcements="108"
+		enemyReinfTime="10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 10.0; 
+						30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 30.0; 
+						40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0; 40.0;
+						60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 60.0; 
+						80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 80.0; 
+						90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0; 90.0;
+						110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0; 110.0;
+						130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0; 130.0;
+						150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0; 150.0"
+		enemyReinfMapPos="1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12;
+						  1, 21; 1, 22; 3, 38; 38, 38; 43, 38; 44, 38; 48, 21; 48, 22; 43, 1; 28, 1; 12, 1; 1, 12"
+		enemyReinfDetails="1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0;
+						   1,1,0,1; 0,3,0,0; 2,3,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,1,0; 1,2,0,0; 1,2,0,0; 0,2,0,1; 1,2,0,0; 1,2,0,0"
+
+		
+		task1Type="Defense"
+		task1Time="210.0"
+		/>
+	
+	<MapDefinition
+		name="GrassLands"
+		dimensions="20, 30"
+		fillTileType="SHORT_GRASS"
+		borderTileType="ROCK_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		worm1TileType="GRASS"	worm1Count="30"	worm1MaxLength="6"
+		worm2TileType="STONE_WALL"	worm2Count="40"	worm2MaxLength="6"
+		worm3TileType="BREAKABLE_WALL"	worm3Count="30"	worm3MaxLength="4"
+		
+		
+		numOfAries ="1"
+		numOfLeo="0"
+		numOfScorpio="0"
+		numOfCapricorn="0"
+		numOfCancer="0"
+		/>
+	<MapDefinition
+		name="DeepIntoDanger"
+		dimensions="40, 10"
+		fillTileType="LONG_GRASS"
+		borderTileType="ROCK_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		worm1TileType="WATER_PLANTS" worm1Count="10"	worm1MaxLength="3"
+		worm2TileType="BRICK_WALL2"	worm2Count="10"	worm2MaxLength="6"
+		worm3TileType="BRICK_WALL1"	worm3Count="5"	worm3MaxLength="4"
+		
+		numOfAries ="5"
+		numOfLeo="5"
+		numOfScorpio="5"
+		numOfCapricorn="0"
+		numOfCancer="0"
+		/>
+	<MapDefinition
+		name="Desert"
+		dimensions="50, 50"
+		fillTileType="SANDS"
+		borderTileType="ROCK_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		worm1TileType="DESERT"	    worm1Count="60"	worm1MaxLength="15"
+		worm2TileType="BRICK_WALL1"	worm2Count="40"	worm2MaxLength="10"
+		worm3TileType="WATER"   	worm3Count="10"	worm3MaxLength="30"
+
+		numOfAries ="30"
+		numOfLeo="30"
+		numOfScorpio="30"
+		numOfCapricorn="30"
+		numOfCancer="0"
+		/>
+	<MapDefinition
+		name="HomeOfEvil"
+		dimensions="30, 30"
+		fillTileType="SHORT_GRASS"
+		borderTileType="STONE_WALL"
+		bunkerWallTileType="STEEL_WALL"
+		bunkerFloorTileType="STEEL_FLOOR"
+		worm1TileType="GRASS"	worm1Count="30"	worm1MaxLength="6"
+		worm2TileType="STONE_WALL"	worm2Count="40"	worm2MaxLength="6"
+		
+		numOfAries ="5"
+		numOfLeo="5"
+		numOfScorpio="5"
+		numOfCapricorn="5"
+		numOfCancer="0"
+		mapImageName="Data/Images/HomeOfEvil.png"
+		mapImageOffset="0, 0"
+		/>
+</MapDefinitions>

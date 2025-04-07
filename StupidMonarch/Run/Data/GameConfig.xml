@@ -1,0 +1,9 @@
+
+<!-- language: En/Zh-->
+<GameConfig
+	language="En"
+	
+	numOfProvs="1000"
+	centerForce="XW"
+	observerForce="OB"
+/>

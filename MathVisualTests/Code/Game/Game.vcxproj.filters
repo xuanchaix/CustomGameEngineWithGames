@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{c2f8cc26-f828-41e4-8c0a-24173cb8f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualTests">
+      <UniqueIdentifier>{4a7fa74d-8cf3-4d00-8c28-174122f5ffa2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualTest.cpp">
+      <Filter>VisualTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MP1A5.cpp">
+      <Filter>VisualTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MP1A6.cpp">
+      <Filter>VisualTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MP2A3.cpp">
+      <Filter>VisualTests</Filter>
+    </ClCompile>
+    <ClCompile Include="MP2A4.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="3DTestShapeUtils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MP2A5.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MP2A6.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualTest.hpp">
+      <Filter>VisualTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MP1A5.hpp">
+      <Filter>VisualTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MP1A6.hpp">
+      <Filter>VisualTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MP2A3.hpp">
+      <Filter>VisualTests</Filter>
+    </ClInclude>
+    <ClInclude Include="MP2A4.hpp" />
+    <ClInclude Include="3DTestShapeUtils.hpp" />
+    <ClInclude Include="MP2A5.hpp" />
+    <ClInclude Include="MP2A6.hpp" />
+  </ItemGroup>
+</Project>

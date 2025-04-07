@@ -1,0 +1,27 @@
+<!-- <TileDefinition type="" coordsInTexture="" tintColor="" isSolid="true" isWater="true" mapImageColor="255, 255, 255, 255" 
+								isDestructible="false" typeAfterDestruction="GRASS" maxHealth="10" /> -->
+<TileDefinitions>
+	<TileDefinition type="GRASS" coordsInTexture="2, 0"/>
+	<TileDefinition type="SHORT_GRASS" coordsInTexture="0, 0" mapImageColor="254, 254, 254, 255"/>
+	<TileDefinition type="LONG_GRASS" coordsInTexture="3, 0"/>
+	<TileDefinition type="WATER_PLANTS" coordsInTexture="0, 1"/>
+	<TileDefinition type="STONE_WALL" coordsInTexture="1, 2" isSolid="true" mapImageColor="192, 192, 192, 255"/>
+	<TileDefinition type="MUD" coordsInTexture="5, 2"/>
+	<TileDefinition type="WATER" coordsInTexture="5, 7" isWater="true" mapImageColor="51, 51, 255, 255"/>
+	<TileDefinition type="LAVA" coordsInTexture="7, 7" isWater="true"/>
+	<TileDefinition type="STEEL_FLOOR" coordsInTexture="0, 3"/>
+	<TileDefinition type="SANDS" coordsInTexture="5, 1"/>
+	<TileDefinition type="DESERT" coordsInTexture="7, 1"/>
+	<TileDefinition type="ROCK_FLOOR" coordsInTexture="0, 2" mapImageColor="128, 128, 128, 255"/>
+	<TileDefinition type="CITY_FLOOR" coordsInTexture="5, 5"/>
+	<TileDefinition type="SNOW_PLAIN" coordsInTexture="4, 6" mapImageColor="244, 244, 244, 255"/>
+	<TileDefinition type="ICE" coordsInTexture="6, 6" mapImageColor="163, 211, 255, 255"/>
+	
+	<TileDefinition type="BRICK_WALL1" coordsInTexture="3, 4" isSolid="true" mapImageColor="200, 200, 200, 255"/>
+	<TileDefinition type="BREAKABLE_WALL" coordsInTexture="1, 5" mapImageColor="200, 100, 100, 255" isSolid="true" isDestructible="true" typeAfterDestruction="GRASS" maxHealth="10"/>
+	<TileDefinition type="BRICK_WALL2" coordsInTexture="1, 4" isSolid="true"/>
+	<TileDefinition type="ROCK_WALL" coordsInTexture="7, 3" isSolid="true"/>
+	<TileDefinition type="STEEL_WALL" coordsInTexture="0, 4" isSolid="true"/>
+	<TileDefinition type="ENTRANCE" coordsInTexture="0, 7"/>
+	<TileDefinition type="EXIT" coordsInTexture="1, 7"/>
+</TileDefinitions>

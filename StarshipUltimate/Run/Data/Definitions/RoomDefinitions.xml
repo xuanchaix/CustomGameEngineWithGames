@@ -1,0 +1,528 @@
+<!--
+spawnDelay
+
+level1-10
+level2-15
+level3-20
+
+level5-boss
+			<SpawnPoint localPos="50.f, 50.f" enemyName="BossArmsMaster" enemyLevel="1"/>
+call boss: <SpawnPoint localPos="100.f, 50.f" enemyName="DiamondBossSuperMiner" enemyLevel="5"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondBossSuperMiner" enemyLevel="5"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondBossRayChannel" enemyLevel="5"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="SectorGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="150.f, 50.f" enemyName="ShieldMachineGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="GunTwinElder" enemyLevel="1"/>GunAudience
+			<SpawnPoint localPos="50.f, 50.f" enemyName="BacteriaBossMarshKing" enemyLevel="1"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="FinalBossMercyKiller" enemyLevel="1"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="BacteriaBossMarshKing" enemyLevel="1"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="BacteriaBossThreeSisters" enemyLevel="1"/>
+			<SpawnPoint localPos="50.f, 50.f" enemyName="DiamondReflector" enemyLevel="1"/>
+
+-->
+
+<RoomDefinitions>
+	<!--Start Room-->
+	<RoomDefinition faction="Neutral" type="Neutral" name="startRoom" numOfItemRewards="0">
+		<SpawnPoints>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<!--Sell health center-->
+	<!--Event Room(Special Room)-->
+	<RoomDefinition faction="Event" type="SellMaxHealth" name="DemonServiceCenter" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<ItemInfo pool="-1" localPos="0.f, 0.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Event" type="Gamble" name="GambleRoom" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Event" type="SlotMachine" name="SlotMachineRoom" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Event" type="SellHealth" name="HealthCenter" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<ItemInfo pool="-1" localPos="0.f, 0.f"/>
+	</RoomDefinition>
+	<!--Chest-->
+	<RoomDefinition faction="Chest" type="Chest" name="chestLevel1" numOfItemRewards="1" roomLevel="1">
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Chest" type="Chest" name="chestLevel2" numOfItemRewards="1" roomLevel="2">
+		<ItemInfo pool="2" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Chest" type="Chest" name="chestLevel3" numOfItemRewards="1" roomLevel="3">
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Chest" type="Chest" name="chestLevel4" numOfItemRewards="1" roomLevel="4">
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="DangerousChest" type="DangerousChest" name="mimicLevel1" numOfItemRewards="1" roomLevel="1">
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="DangerousChest" type="DangerousChest" name="mimicLevel2" numOfItemRewards="1" roomLevel="2">
+		<ItemInfo pool="2" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="DangerousChest" type="DangerousChest" name="mimicLevel3" numOfItemRewards="1" roomLevel="3">
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="DangerousChest" type="DangerousChest" name="mimicLevel4" numOfItemRewards="1" roomLevel="4">
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<!--Shop-->
+	<RoomDefinition faction="Shop" type="Shop" name="simpleSmallShop1" numOfItemRewards="0" roomLevel="1">
+		<ItemInfo pool="-1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Shop" type="Shop" name="simpleSmallShop2" numOfItemRewards="0" roomLevel="2">
+		<ItemInfo pool="-1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Shop" type="Shop" name="simpleSmallShop3" numOfItemRewards="0" roomLevel="3">
+		<ItemInfo pool="-1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Shop" type="Shop" name="simpleSmallShop4" numOfItemRewards="0" roomLevel="4">
+		<ItemInfo pool="-1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<!--Final Boss-->
+	<RoomDefinition faction="FinalBoss" type="Enemy" name="bossMercyKiller" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="FinalBossMercyKiller" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	
+	<!--Diamond Rooms-->
+	<RoomDefinition faction="Diamond" type="Enemy" name="smallMine" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="smallMineWithShooter" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="DiamondRayShooter" enemyLevel="1" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="DiamondRayShooter" enemyLevel="1" />
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondRayShooter" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="smallMineWithStriker" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="DiamondStriker" enemyLevel="2" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="DiamondStriker" enemyLevel="2" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="smallMineWithMiner" numOfItemRewards="0" roomLevel="1">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="Random" enemyLevel="1" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="Random" enemyLevel="1" />
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Random" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="smallMineWithMiner" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="DiamondMiner" enemyLevel="1" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="DiamondMiner" enemyLevel="1" />
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondMiner" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="middleMine" numOfItemRewards="0" roomLevel="2">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="middleMineWithDoubleShooter" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="DiamondDoubleRayShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="DiamondDoubleRayShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondShieldRayShooter" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="middleMineWithShieldShooter" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="DiamondShieldRayShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="DiamondShieldRayShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondRayShooter" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="middleMineWithMiner" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="70.f, 50.f" enemyName="DiamondMiner" enemyLevel="1" />
+			<SpawnPoint localPos="130.f, 50.f" enemyName="DiamondMiner" enemyLevel="1" />
+			<SpawnPoint localPos="90.f, 50.f" enemyName="DiamondStriker" enemyLevel="2" />
+			<SpawnPoint localPos="110.f, 50.f" enemyName="DiamondStriker" enemyLevel="2" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="middleMineWithReflector" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="DiamondReflector" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="DiamondReflector" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="largeMineWithShieldShooter" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 45.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="110.f, 55.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="DiamondWarrior" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="DiamondShieldRayShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="DiamondShieldRayShooter" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="largeMineWithReflector" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 45.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="110.f, 55.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="DiamondRayShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="DiamondReflector" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="DiamondReflector" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="DiamondReflector" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="DiamondReflector" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="largeMineRandom" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Random" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="largeMineRandomWithMiner" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondMiner" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="2" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="bossAssassin" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="196.f, 96.f" enemyName="DiamondBossAssassin" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="bossSuperMiner" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100000.f, 100000.f" enemyName="DiamondBossSuperMiner" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Diamond" type="Enemy" name="bossRayChannel" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="DiamondBossRayChannel" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	
+	<!--Gungeon Rooms-->
+	<RoomDefinition faction="Gun" type="Enemy" name="smallDen" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="GunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="GunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="GunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="GunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="GunShooter" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="smallDenWithSectorGun" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="75.f, 50.f" enemyName="SectorGunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="125.f, 50.f" enemyName="SectorGunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="90.f, 50.f" enemyName="GunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="110.f, 50.f" enemyName="GunShooter" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="smallDenWithMachineGun" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="MachineGunShooter" enemyLevel="2" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="MachineGunShooter" enemyLevel="2" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="smallDenWithMiner" numOfItemRewards="0" roomLevel="1">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="smallDenWithShotGun" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="75.f, 50.f" enemyName="ShotGunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="125.f, 50.f" enemyName="ShotGunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="90.f, 50.f" enemyName="GunShooter" enemyLevel="1" />
+			<SpawnPoint localPos="110.f, 50.f" enemyName="GunShooter" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="middleDen" numOfItemRewards="0" roomLevel="2">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="middleDenWithMachineGun" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="MachineGunShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="MachineGunShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="MachineGunShooter" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="middleDenWithShieldShooter" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="ShieldMachineGunShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="ShieldMachineGunShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="ShotGunShooter" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="middleDenWithMissileShooter" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="70.f, 50.f" enemyName="MissileShooter" enemyLevel="2" />
+			<SpawnPoint localPos="130.f, 50.f" enemyName="MissileShooter" enemyLevel="2" />
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Sniper" enemyLevel="2" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="middleDenWithSectorGun" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="SectorGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="SectorGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="ShotGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="SectorGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="SectorGunShooter" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="largeDenWithShieldMachineGun" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 45.f" enemyName="ShotGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="ShotGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="110.f, 55.f" enemyName="ShotGunShooter" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="ShieldMachineGunShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="ShieldMachineGunShooter" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="2" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="largeDenWithMissileShooter" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 45.f" enemyName="MissileShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="MissileShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="110.f, 55.f" enemyName="MissileShooter" enemyLevel="2"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="MissileShooter" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="largeDenRandom" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Random" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="largeDenRandomWithSniper" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Sniper" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="bossTwin" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="125.f, 50.f" enemyName="GunTwinElder" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="bossTwin" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BossDoubleGun" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Gun" type="Enemy" name="bossArmsMaster" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BossArmsMaster" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+
+	<!--Bacteria Rooms-->
+	<RoomDefinition faction="Bacteria" type="Enemy" name="smallBreedingGround" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="SmallBacteria" enemyLevel="0"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="SmallBacteria" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="SmallBacteria" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="SmallBacteria" enemyLevel="0"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="SmallBacteria" enemyLevel="0"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="smallBreedingGroundWithMediumBacteria" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="75.f, 50.f" enemyName="MediumBacteria" enemyLevel="1" />
+			<SpawnPoint localPos="125.f, 50.f" enemyName="MediumBacteria" enemyLevel="1" />
+			<SpawnPoint localPos="90.f, 50.f" enemyName="SmallBacteria" enemyLevel="0" />
+			<SpawnPoint localPos="110.f, 50.f" enemyName="SmallBacteria" enemyLevel="0" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="smallBreedingGroundWithLargeBacteria" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="80.f, 50.f" enemyName="LargeBacteria" enemyLevel="2" />
+			<SpawnPoint localPos="120.f, 50.f" enemyName="LargeBacteria" enemyLevel="2" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="smallBreedingGroundWithRandom" numOfItemRewards="0" roomLevel="1">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="smallBreedingGroundWithBacteriaSprayer" numOfItemRewards="0" roomLevel="1" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="75.f, 50.f" enemyName="BacteriaSprayer" enemyLevel="1" />
+			<SpawnPoint localPos="125.f, 50.f" enemyName="BacteriaSprayer" enemyLevel="1" />
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaSprayer" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="middleBreedingGround" numOfItemRewards="0" roomLevel="2">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="middleBreedingGroundWithBacteriaBreeder" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="middleBreedingGroundWithFusion" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="BacteriaFusion" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="BacteriaFusion" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaSprayer" enemyLevel="1" />
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="middleBreedingGroundWithLargeBacteria" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="BacteriaSprayer" enemyLevel="1"/>
+			<SpawnPoint localPos="40.f, 80.f"  enemyName="LargeBacteria" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="LargeBacteria" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="BacteriaSprayer" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="middleBreedingGroundWithBacteriaMothership" numOfItemRewards="0" roomLevel="2" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="BacteriaMothership" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f"  enemyName="BacteriaMothership" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="BacteriaMothership" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="MediumBacteria" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="-1" localPos="0, 0"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="largeBreedingGroundWithFusion" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="SmallBacteria" enemyLevel="0"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="BacteriaFusion" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="BacteriaFusion" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="BacteriaFusion" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="2" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="largeBreedingGroundWithBreeder" numOfItemRewards="1" roomLevel="3" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="90.f, 45.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+			<SpawnPoint localPos="90.f, 55.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+			<SpawnPoint localPos="110.f, 55.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+			<SpawnPoint localPos="110.f, 45.f" enemyName="BacteriaBreeder" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="3" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="largeBreedingGroundRandom" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="Random" enemyLevel="2"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="largeBreedingGroundRandomWithBreeder" numOfItemRewards="1" roomLevel="3">
+		<SpawnPoints>
+			<SpawnPoint localPos="40.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="40.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 20.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="160.f, 80.f" enemyName="Random" enemyLevel="2"/>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaBreeder" enemyLevel="1"/>
+		</SpawnPoints>
+		<ItemInfo pool="1" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="bossGreatFusion" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaBossTheGreatFusion" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="bossMarshKing" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaBossMarshKing" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+	<RoomDefinition faction="Bacteria" type="Enemy" name="bossThreeSisters" numOfItemRewards="3" roomLevel="5" appearOnlyOnce="true">
+		<SpawnPoints>
+			<SpawnPoint localPos="100.f, 50.f" enemyName="BacteriaBossThreeSisters" enemyLevel="5"/>
+		</SpawnPoints>
+		<ItemInfo pool="4" localPos="100.f, 50.f"/>
+	</RoomDefinition>
+</RoomDefinitions>

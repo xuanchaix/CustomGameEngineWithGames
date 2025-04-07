@@ -1,0 +1,185 @@
+<ForceDefinitions>
+	<!--卢龙 LL-->
+	<ForceDefinition id="0" forceName="Lulong" forceNickName="LL" color="193, 173, 181" capitalProvinceId="0" />
+
+	<!--义武 YW-->
+	<ForceDefinition id="1" forceName="Yiwu" forceNickName="YW" color="137, 136, 87" capitalProvinceId="10" />
+
+	<!--横海 HH-->
+	<ForceDefinition id="2" forceName="Henghai" forceNickName="HH" color="66, 80, 188" capitalProvinceId="11" />
+
+	<!--成德 CD-->
+	<ForceDefinition id="3" forceName="Chengde" forceNickName="CD" color="157, 24, 205" capitalProvinceId="15" />
+
+	<!--昭义 ZY-->
+	<ForceDefinition id="4" forceName="Zhaoyi" forceNickName="ZY" color="62, 170, 100" capitalProvinceId="22" />
+
+	<!--魏博 WB-->
+	<ForceDefinition id="5" forceName="Weibo" forceNickName="WB" color="150, 215, 205" capitalProvinceId="26" />
+	
+	<!--河阳 HY-->
+	<ForceDefinition id="6" forceName="Heyang" forceNickName="HY" color="53, 44, 34" capitalProvinceId="46" />
+	
+	<!--河东 HD-->
+	<ForceDefinition id="7" forceName="Hedong" forceNickName="HD" color="117, 120, 136" capitalProvinceId="36" />
+	
+	<!--河中 HZ-->
+	<ForceDefinition id="8" forceName="Hezhong" forceNickName="HZ" color="100, 136, 57" capitalProvinceId="45" />
+	
+	<!--朝廷 DT-->
+	<ForceDefinition id="9" forceName="Chaoting" forceNickName="DT" color="128, 0, 0" capitalProvinceId="67" />
+
+	<!--凤翔 FX-->
+	<ForceDefinition id="10" forceName="Fengxiang" forceNickName="FX" color="30, 60, 90" capitalProvinceId="66" />
+	
+	<!--鄜坊 FF-->
+	<ForceDefinition id="11" forceName="Fufang" forceNickName="FF" color="60, 100, 150" capitalProvinceId="59" />
+	
+	<!--夏绥 XS-->
+	<ForceDefinition id="12" forceName="Xiasui" forceNickName="XS" color="121, 200, 90" capitalProvinceId="53" />
+	
+	<!--朔方 SF-->
+	<ForceDefinition id="13" forceName="Shuofang" forceNickName="SF" color="218, 125, 156" capitalProvinceId="56" />
+	
+	<!--邠宁 BN-->
+	<ForceDefinition id="14" forceName="Binning" forceNickName="BN" color="197, 211, 0" capitalProvinceId="63" />
+	
+	<!--泾原 JY-->
+	<ForceDefinition id="15" forceName="Jingyuan" forceNickName="JY" color="33, 62, 155" capitalProvinceId="64" />
+	
+	<!--金商 JS-->
+	<ForceDefinition id="16" forceName="Jinshang" forceNickName="JS" color="68, 94, 85" capitalProvinceId="71" />
+	
+	<!--振武 ZW-->
+	<ForceDefinition id="17" forceName="Zhenwu" forceNickName="ZW" color="42, 174, 116" capitalProvinceId="48" />
+	
+	<!--陕虢 SG-->
+	<ForceDefinition id="18" forceName="Shanguo" forceNickName="SG" color="62, 204, 6" capitalProvinceId="72" />
+	
+	<!--都畿 DJ-->
+	<ForceDefinition id="19" forceName="Duji" forceNickName="DJ" color="149, 45, 102" capitalProvinceId="74" />
+
+	<!--义成 YC-->
+	<ForceDefinition id="20" forceName="Yicheng" forceNickName="YC" color="140, 65, 166" capitalProvinceId="77" />
+
+	<!--忠武 CX-->
+	<ForceDefinition id="21" forceName="Zhongwu" forceNickName="CX" color="87, 86, 49" capitalProvinceId="78" />
+
+	<!--淮西 HX-->
+	<ForceDefinition id="22" forceName="Huaixi" forceNickName="HX" color="110, 110, 110" capitalProvinceId="81" />
+
+	<!--宣武 XW-->
+	<ForceDefinition id="23" forceName="Xuanwu" forceNickName="XW" color="178, 12, 48" capitalProvinceId="82" />
+
+	<!--天平 TP-->
+	<ForceDefinition id="24" forceName="Tianping" forceNickName="TP" color="196, 176, 52" capitalProvinceId="88" />
+
+	<!--平卢 PL-->
+	<ForceDefinition id="25" forceName="Pinglu" forceNickName="PL" color="100, 40, 9" capitalProvinceId="91" />
+
+	<!--兖海 YH-->
+	<ForceDefinition id="26" forceName="Yanhai" forceNickName="YH" color="183, 183, 152" capitalProvinceId="94" />
+
+	<!--武宁 WN-->
+	<ForceDefinition id="27" forceName="Wuning" forceNickName="WN" color="24, 35, 113" capitalProvinceId="98" />
+	
+	<!--淮南 HN-->
+	<ForceDefinition id="28" forceName="Huainan" forceNickName="HN" color="201, 197, 0" capitalProvinceId="103" />
+
+	<!--山南西道 SX-->
+	<ForceDefinition id="29" forceName="Shannanxidao" forceNickName="SX" color="10, 91, 88" capitalProvinceId="112" />
+
+	<!--兴凤 XF-->
+	<ForceDefinition id="30" forceName="Xingfeng" forceNickName="XF" color="113, 147, 185" capitalProvinceId="110" />
+
+	<!--荆南 JN-->
+	<ForceDefinition id="31" forceName="Jingnan" forceNickName="JN" color="11, 141, 143" capitalProvinceId="130" />
+
+	<!--山南东道 SD-->
+	<ForceDefinition id="32" forceName="Shannandongdao" forceNickName="SD" color="59, 219, 128" capitalProvinceId="138" />
+
+	<!--鄂岳 EY-->
+	<ForceDefinition id="33" forceName="Eyue" forceNickName="EY" color="95, 155, 207" capitalProvinceId="147" />
+
+	<!--剑南东道 JD-->
+	<ForceDefinition id="34" forceName="Jiannandongdao" forceNickName="JD" color="160, 69, 168" capitalProvinceId="152" />
+
+	<!--剑南西道 JX-->
+	<ForceDefinition id="35" forceName="Jiannanxidao" forceNickName="JX" color="31, 168, 10" capitalProvinceId="165" />
+
+	<!--浙西 ZX-->
+	<ForceDefinition id="36" forceName="Zhexi" forceNickName="ZX" color="45, 199, 186" capitalProvinceId="176" />
+
+	<!--宣歙 XS-->
+	<ForceDefinition id="37" forceName="Xuanshe" forceNickName="XZ" color="166, 60, 97" capitalProvinceId="182" />
+	
+	<!--浙东 ZD-->
+	<ForceDefinition id="38" forceName="Zhedong" forceNickName="ZD" color="199, 84, 26" capitalProvinceId="185" />
+	
+	<!--福建 FJ-->
+	<ForceDefinition id="39" forceName="Fujian" forceNickName="FJ" color="25, 52, 69" capitalProvinceId="192" />
+	
+	<!--江西 JJ-->
+	<ForceDefinition id="40" forceName="Jiangxi" forceNickName="JJ" color="26, 102, 164" capitalProvinceId="199" />
+	
+	<!--湖南 NN-->
+	<ForceDefinition id="41" forceName="Hunan" forceNickName="NN" color="31, 189, 206" capitalProvinceId="205" />
+	
+	<!--黔中 QZ-->
+	<ForceDefinition id="42" forceName="Qianzhong" forceNickName="QZ" color="17, 22, 60" capitalProvinceId="213" />
+	
+	<!--岭南 LN-->
+	<ForceDefinition id="43" forceName="Lingnan" forceNickName="LN" color="44, 197, 105" capitalProvinceId="228" />
+					 
+	<!--桂管 GG-->
+	<ForceDefinition id="44" forceName="Guiguan" forceNickName="GG" color="30, 187, 156" capitalProvinceId="238" />
+
+	<!--容管 GG-->
+	<ForceDefinition id="45" forceName="Rongguan" forceNickName="RG" color="147, 51, 94" capitalProvinceId="245" />
+	
+	<!--邕管 YG-->
+	<ForceDefinition id="46" forceName="Yongguan" forceNickName="YG" color="32, 16, 102" capitalProvinceId="252" />
+	
+	<!--安南 AN-->
+	<ForceDefinition id="47" forceName="Annan" forceNickName="AN" color="89, 92, 54" capitalProvinceId="256" />
+	
+	<!--观察者 OB-->
+	<ForceDefinition id="48" forceName="Observer" forceNickName="OB" color="128, 128, 128" capitalProvinceId="259" />
+
+	<!--河北 燕 HB-->
+	<ForceDefinition id="49" forceName="Yan" forceNickName="HB" color="173, 153, 161" capitalProvinceId="0" />
+	
+	<!--關中 秦 QN-->
+	<ForceDefinition id="50" forceName="Qin" forceNickName="QN" color="128, 0, 0" capitalProvinceId="67" />
+	
+	<!--河南 梁 LN-->
+	<ForceDefinition id="51" forceName="Liang" forceNickName="LI" color="178, 12, 48" capitalProvinceId="82" />
+	
+	<!--四川 蜀 SU-->
+	<ForceDefinition id="52" forceName="Shu" forceNickName="SU" color="31, 168, 10" capitalProvinceId="165" />
+	
+	<!--江南 吳 WU-->
+	<ForceDefinition id="53" forceName="Wu" forceNickName="WU" color="45, 199, 186" capitalProvinceId="178" />
+	
+	<!--嶺南 楚 CU-->
+	<ForceDefinition id="54" forceName="Chu" forceNickName="CU" color="44, 197, 105" capitalProvinceId="130" />
+
+	<!--后梁 HL-->
+	<ForceDefinition id="55" forceName="Houliang" forceNickName="HL" color="54, 117, 185" capitalProvinceId="82" />
+
+	<!--晋 JI-->
+	<ForceDefinition id="56" forceName="Jin" forceNickName="JI" color="117, 120, 136" capitalProvinceId="36" />
+
+	<!--岐 QI-->
+	<ForceDefinition id="57" forceName="Qi" forceNickName="QI" color="182, 49, 44" capitalProvinceId="66" />
+	
+	<!--蜀 SV-->
+	<ForceDefinition id="58" forceName="Shu" forceNickName="SV" color="48, 189, 86" capitalProvinceId="165" />
+
+	<!--永平 YP-->
+	<ForceDefinition id="59" forceName="Yongping" forceNickName="YP" color="168, 42, 68" capitalProvinceId="82" />
+
+	<!--夔忠 KZ-->
+	<ForceDefinition id="60" forceName="Kuizhong" forceNickName="KZ" color="108, 192, 118" capitalProvinceId="127" />
+
+</ForceDefinitions>

@@ -1,0 +1,37 @@
+<ScenarioDefinitions>
+	<ScenarioDefinition
+		year="781"
+		name="$(er_di_si_wang_scenario_name)"
+		description="$(er_di_si_wang_scenario_desc)"
+		/>
+	<ScenarioDefinition
+		year="820"
+		name="$(yuan_he_zhong_xing_scenario_name)"
+		description="$(yuan_he_zhong_xing_scenario_desc)"
+		/>
+	<ScenarioDefinition
+		year="906"
+		name="$(wu_dai_shi_guo_scenario_name)"
+		description="$(wu_dai_shi_guo_scenario_desc)"
+		/>
+	<ScenarioDefinition
+		year="2024"
+		name="$(6_player_stupid_monarch_scenario_name)"
+		description="$(6_player_stupid_monarch_scenario_desc)"
+		/>
+	<ScenarioDefinition
+		year="2025"
+		name="$(4_player_stupid_monarch_scenario_name)"
+		description="$(4_player_stupid_monarch_scenario_desc)"
+		/>
+	<!--<ScenarioDefinition
+		year="2024"
+		name="$(5_player_stupid_monarch_scenario_name)"
+		description="$(5_player_stupid_monarch_scenario_desc)"
+		/>
+	<ScenarioDefinition
+		year="2024"
+		name="$(4_player_stupid_monarch_scenario_name)"
+		description="$(4_player_stupid_monarch_scenario_desc)"
+		/>-->
+</ScenarioDefinitions>

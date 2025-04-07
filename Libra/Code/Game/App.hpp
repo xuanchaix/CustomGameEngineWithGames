@@ -1,0 +1,73 @@
+#pragma once
+#include "Engine/Core/Time.hpp"
+#include "Engine/Renderer/Camera.hpp"
+#include "Game/GameCommon.hpp"
+class Game;
+class SpriteAnimDefinition;
+
+//-------------8.23.2023 class App--------------
+
+constexpr float STRAT_BUTTON_TIME = 0.8f;
+
+enum class AppState {};
+
+class App {
+
+public:
+	bool m_isPaused = false;
+	int m_framePerSecond;
+
+public:
+	App();
+	~App();
+	void Startup();
+	void Shutdown();
+	void Run();
+	void RunFrame();
+
+	bool IsDebugMode() const { return m_debugMode; }
+
+	void ToAttractMode();
+	SoundID GetSoundId( AudioName name ) const;
+	bool PlaySound( AudioName name, float intervalTimeSeconds = 0.f, bool isLooped = false, float volume = 1.f, float balance = 0.f, float speed = 1.f );
+	SpriteAnimDefinition* GetAnimation( AnimationName name );
+
+private:
+	void BeginFrame();
+	void Update( float deltaSeconds );
+	void Render() const;
+	void EndFrame();
+
+	void HandleKey();
+
+	void RenderAttractMode() const;
+
+	void SetUpAudio();
+	void SetUpTexture();
+	void SetUpBlackBoard();
+	static bool SetQuitting( EventArgs& args );
+	
+private:
+	Camera m_attractModeCamera;
+	bool m_isQuitting = false;
+	bool m_isSlowMo = false;
+	bool m_isFastMo = false;
+	bool m_pauseAfterUpdate = false;
+	bool m_debugMode = false;
+
+	bool m_toAttractMode = false;
+	bool m_attractMode = true;
+	float m_startButtonA = -STRAT_BUTTON_TIME;
+
+	double m_timeStart;
+	double m_timeEnd;
+
+	double m_lastSoundPlaySecondsByID[(int)AudioName::NUM] = {};
+	SoundID m_audioDictionary[(int)AudioName::NUM] = {};
+
+	Texture* attractTexture;
+	SoundPlaybackID m_attractModeMusic = (unsigned int)-1;
+	SpriteAnimDefinition* m_animDictionary[(int)AnimationName::NUM] = {};
+
+	//float m_timePassed;
+};

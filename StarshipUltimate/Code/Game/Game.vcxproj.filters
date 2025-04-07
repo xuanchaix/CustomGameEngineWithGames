@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{c2f8cc26-f828-41e4-8c0a-24173cb8f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{ad228917-74ef-427c-b2d2-ed2f8fcbb77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{a64a8c18-80be-4897-b5a7-ede7ea5d54c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectiles">
+      <UniqueIdentifier>{33a05b0a-dce1-44fd-909b-57ae4cb097ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapons">
+      <UniqueIdentifier>{dc33a8e7-9ace-4e3e-baaf-0ae81e916c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{e6c08059-18dc-4488-9375-ba675b9850f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{534e2dde-7118-42e8-84dd-a5915b6aa245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{507ea2c7-f5e2-4f06-8356-326e1cd61543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{23fe91c0-4f53-4c19-aa1a-38e57af1e455}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShip.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="StarshipTimer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondFraction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFaction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonFaction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutralFaction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFaction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BacteriaFaction.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsScreen.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShip.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.hpp">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondFraction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.hpp">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hpp">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="StarshipTimer.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.hpp">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFaction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonFaction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NeutralFaction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFaction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BacteriaFaction.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsScreen.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\Definitions\EntityDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ProjectileDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\WeaponDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\RoomDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\ItemDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\GameDefinition.xml">
+      <Filter>Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

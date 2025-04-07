@@ -1,0 +1,2075 @@
+<ProvinceDefinitions>
+	<!--卢龙-->
+	<!--幽州 蓟-->
+	<ProvinceDefinition
+		id="0" provinceName="Youzhou" color="113, 193, 101" capitalName="Ji" isMajor="true" isPlain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="6" pop="87000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="6" pop="77000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--檀州 密云-->
+	<ProvinceDefinition
+		id="1" provinceName="Tanzhou" color="132, 22, 223" capitalName="Miyun" isMountain="true" maxDef="6000" huhuaness="0.65"> 
+		<History year="755" economy="3" pop="29000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="3" pop="9000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--蓟州 渔阳-->
+	<ProvinceDefinition
+		id="2" provinceName="Jizhou" color="209, 187, 44" capitalName="Yuyang" isMountain="true" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="3" pop="28000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="3" pop="8000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--平州 卢龙-->
+	<ProvinceDefinition
+		id="3" provinceName="Pingzhou" color="171, 52, 171" capitalName="Lulong" isMountain="true" maxDef="5000" huhuaness="0.8">
+		<History year="755" economy="2" pop="16000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="2" pop="6000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--营州 柳城-->
+	<ProvinceDefinition
+		id="4" provinceName="Yingzhou" color="24, 192, 192" capitalName="Liucheng" maxDef="3000" huhuaness="0.9">
+		<History year="755" economy="2" pop="19000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="2" pop="9000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--妫州 怀戎-->
+	<ProvinceDefinition
+		id="5" provinceName="Guizhou" color="13, 30, 163" capitalName="Huairou" isMountain="true" maxDef="6000" huhuaness="0.6">
+		<History year="755" economy="2" pop="15000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="2" pop="5000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--涿州 范阳-->
+	<ProvinceDefinition
+		id="6" provinceName="Zhuozhou" color="246, 61, 95" capitalName="Fanyang" isPlain="true" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="7" pop="35000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="7" pop="35000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--莫州 莫-->
+	<ProvinceDefinition
+		id="7" provinceName="Mozhou" color="83, 78, 30" capitalName="Mo" isPlain="true" maxDef="2000" huhuaness="0.45">
+		<History year="755" economy="7" pop="54000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="7" pop="54000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--瀛州 河间-->
+	<ProvinceDefinition
+		id="8" provinceName="Yingzhou" color="184, 42, 13" capitalName="Hejian" isPlain="true" maxDef="2500" huhuaness="0.3">
+		<History year="755" economy="8" pop="98000" owner="LL" isLegal="LL"/>
+		<History year="906" economy="8" pop="88000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="8" pop="98000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!--义武-->
+	<!--易州 易-->
+	<ProvinceDefinition
+		id="9" provinceName="Yizhou" color="30, 217, 198" capitalName="Yi" isPlain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="7" pop="44000" owner="CD" isLegal="CD"/>
+		<History year="820" economy="7" pop="44000" owner="YW" isLegal="YW"/>
+		<History year="2024" economy="7" pop="44000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--定州 安喜-->
+	<ProvinceDefinition
+		id="10" provinceName="Dingzhou" color="157, 24, 205" capitalName="Anxi" isPlain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="8" pop="78000" owner="CD" isLegal="CD"/>
+		<History year="820" economy="8" pop="78000" owner="YW" isLegal="YW"/>
+		<History year="2024" economy="8" pop="78000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!--横海-->
+	<!--沧州 清池-->
+	<ProvinceDefinition
+		id="11" provinceName="Cangzhou" color="229, 227, 162" capitalName="Qingchi" isPlain="true" isMajor="true" maxDef="2500" huhuaness="0.6">
+		<History year="755" economy="7" pop="96000" owner="CD" isLegal="CD"/>
+		<History year="820" economy="7" pop="96000" owner="HH" isLegal="HH"/>
+		<History year="906" economy="7" pop="86000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="7" pop="96000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--景州 弓高-->
+	<ProvinceDefinition
+		id="12" provinceName="Jingzhou" color="43, 43, 135" capitalName="Gonggao" isPlain="true" maxDef="1500" huhuaness="0.5">
+		<History year="755" economy="7" pop="31000" owner="CD" isLegal="CD"/>
+		<History year="820" economy="7" pop="31000" owner="HH" isLegal="HH"/>
+		<History year="906" economy="7" pop="31000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="7" pop="31000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--德州 平原-->
+	<ProvinceDefinition
+		id="13" provinceName="Dezhou" color="38, 154, 22" capitalName="Pingyuan" isPlain="true" maxDef="2000" huhuaness="0.4">
+		<History year="755" economy="6" pop="83000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="6" pop="83000" owner="HH" isLegal="HH"/>
+		<History year="906" economy="6" pop="83000" owner="LL" isLegal="LL"/>
+		<History year="2024" economy="6" pop="83000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--棣州 厌次-->
+	<ProvinceDefinition
+		id="14" provinceName="Dizhou" color="55, 229, 229" capitalName="Yanci" isPlain="true" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="5" pop="40000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="5" pop="40000" owner="HH" isLegal="HH"/>
+		<History year="906" economy="5" pop="40000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="40000" owner="HB" isLegal="HB"/>
+		<History year="2025" economy="5" pop="40000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--成德-->
+	<!--恒州 真定-->
+	<ProvinceDefinition
+		id="15" provinceName="Hengzhou" color="218, 76, 20" capitalName="Zhending" isPlain="true" isMajor="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="9" pop="54000" owner="CD" isLegal="CD"/>
+		<History year="906" economy="9" pop="74000" owner="CD" isLegal="CD"/>
+		<History year="2024" economy="9" pop="64000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--赵州 平棘-->
+	<ProvinceDefinition
+		id="16" provinceName="Zhaozhou" color="90, 184, 194" capitalName="Pingji" isPlain="true" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="8" pop="63000" owner="CD" isLegal="CD"/>
+		<History year="2024" economy="8" pop="63000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--深州 饶阳-->
+	<ProvinceDefinition
+		id="17" provinceName="Shenzhou" color="46, 190, 58" capitalName="Raoyang" isPlain="true" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="8" pop="51000" owner="CD" isLegal="CD"/>
+		<History year="2024" economy="8" pop="51000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--冀州 信都-->
+	<ProvinceDefinition
+		id="18" provinceName="Jizhou" color="189, 59, 19" capitalName="Xindu" isPlain="true" maxDef="2500" huhuaness="0.4">
+		<History year="755" economy="9" pop="114000" owner="CD" isLegal="CD"/>
+		<History year="906" economy="9" pop="104000" owner="CD" isLegal="CD"/>
+		<History year="2024" economy="8" pop="114000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	
+	<!--昭义-->
+	<!--邢州 龙冈-->
+	<ProvinceDefinition
+		id="19" provinceName="Xingzhou" color="34, 56, 169" capitalName="Longgang" isPlain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="7" pop="70000" owner="ZY" isLegal="ZY"/>
+		<History year="906" economy="7" pop="60000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="70000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--洺州 永年-->
+	<ProvinceDefinition
+		id="20" provinceName="Mingzhou" color="38, 219, 239" capitalName="Yongnian" isPlain="true" maxDef="2500" huhuaness="0.35">
+		<History year="755" economy="8" pop="92000" owner="WB" isLegal="WB"/>
+		<History year="820" economy="8" pop="92000" owner="ZY" isLegal="ZY"/>
+		<History year="906" economy="8" pop="72000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="92000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--磁州 滏阳-->
+	<ProvinceDefinition
+		id="21" provinceName="Cizhou" color="215, 122, 233" capitalName="Fuyang" isPlain="true" maxDef="1500" huhuaness="0.3">
+		<History year="755" economy="8" pop="30000" owner="ZY" isLegal="ZY"/>
+		<History year="906" economy="8" pop="20000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="30000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--潞州 上党-->
+	<ProvinceDefinition
+		id="22" provinceName="Luzhou" color="16, 194, 66" capitalName="Shangdang" isMountain="true" maxDef="6000" huhuaness="0.2">
+		<History year="755" economy="6" pop="68000" owner="ZY" isLegal="ZY"/>
+		<History year="906" economy="6" pop="68000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="6" pop="68000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="6" pop="68000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--泽州 晋城-->
+	<ProvinceDefinition
+		id="23" provinceName="Zezhou" color="41, 121, 219" capitalName="Jincheng" isMountain="true" maxDef="5500" huhuaness="0.1">
+		<History year="755" economy="5" pop="28000" owner="ZY" isLegal="ZY"/>
+		<History year="906" economy="5" pop="28000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="5" pop="28000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="5" pop="28000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	
+	<!--魏博-->
+	<!--贝州 清河-->
+	<ProvinceDefinition
+		id="24" provinceName="Beizhou" color="238, 251, 62" capitalName="Qinghe" isPlain="true" maxDef="2500" huhuaness="0.4">
+		<History year="755" economy="8" pop="94000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="7" pop="80000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="94000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--博州 聊城-->
+	<ProvinceDefinition
+		id="25" provinceName="Bozhou" color="123, 32, 131" capitalName="Liaocheng" isPlain="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="7" pop="52000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="6" pop="41000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="52000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--魏州 元城-->
+	<ProvinceDefinition
+		id="26" provinceName="Weizhou" color="31, 142, 0" capitalName="Yuancheng" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="9" pop="120000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="8" pop="110000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="120000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--澶州 顿丘-->
+	<ProvinceDefinition
+		id="27" provinceName="Chanzhou" color="45, 79, 96" capitalName="Dunqiu" isPlain="true" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="7" pop="30000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="6" pop="20000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="30000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--相州 安阳-->
+	<ProvinceDefinition
+		id="28" provinceName="Xiangzhou" color="199, 64, 19" capitalName="Anyang" isPlain="true" maxDef="2000" huhuaness="0.4">
+		<History year="755" economy="8" pop="71000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="7" pop="61000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="71000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--卫州 汲-->
+	<ProvinceDefinition
+		id="29" provinceName="Weizhou" color="4, 101, 106" capitalName="Ji" isPlain="true" maxDef="2000" huhuaness="0.4">
+		<History year="755" economy="8" pop="46000" owner="WB" isLegal="WB"/>
+		<History year="906" economy="7" pop="36000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="46000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!----------------------------------------------------------------------------------------------------------->
+	<!--河东-->
+	<!--蔚州 灵丘-->
+	<ProvinceDefinition
+		id="30" provinceName="Yuzhou" color="130, 167, 239" capitalName="Lingqiu" isMountain="true" maxDef="6000" huhuaness="0.8">
+		<History year="755" economy="2" pop="15000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="3" pop="25000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="2" pop="15000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="15000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--云州 云中-->
+	<ProvinceDefinition
+		id="31" provinceName="Yunzhou" color="29, 188, 21" capitalName="Yunzhong" isMountain="true" maxDef="8000" huhuaness="0.7">
+		<History year="755" economy="2" pop="43000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="5" pop="53000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="4" pop="43000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="4" pop="43000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--代州 雁门-->
+	<ProvinceDefinition
+		id="32" provinceName="Daizhou" color="223, 220, 29" capitalName="Yanmen" isMountain="true" maxDef="7000" huhuaness="0.6">
+		<History year="755" economy="3" pop="31000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="4" pop="41000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="31000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="31000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--朔州 善阳-->
+	<ProvinceDefinition
+		id="33" provinceName="Shuozhou" color="147, 67, 43" capitalName="Shanyang" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="2" pop="23000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="3" pop="33000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="2" pop="23000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="23000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--忻州 秀容-->
+	<ProvinceDefinition
+		id="34" provinceName="xinzhou" color="74, 187, 187" capitalName="Xiurong" isMountain="true" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="3" pop="15000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="4" pop="25000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="15000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="15000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--岚州 宜芳-->
+	<ProvinceDefinition
+		id="35" provinceName="Lanzhou" color="48, 33, 156" capitalName="Yifang" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="2" pop="7000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="3" pop="17000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="2" pop="7000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="7000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--并州 河东府 太原-->
+	<ProvinceDefinition
+		id="36" provinceName="Bingzhou" color="0, 224, 108" capitalName="Taiyuan" isMountain="true" isMajor="true" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="8" pop="129000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="9" pop="140000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="8" pop="129000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="8" pop="129000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--辽州 榆社-->
+	<ProvinceDefinition
+		id="37" provinceName="Liaozhou" color="128, 142, 66" capitalName="Yushe" isMountain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="3" pop="10000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="3" pop="15000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="10000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="10000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--石州 离石-->
+	<ProvinceDefinition
+		id="38" provinceName="Shizhou" color="104, 138, 139" capitalName="Lishi" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="3" pop="14000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="3" pop="18000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="14000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="14000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--汾州 西河-->
+	<ProvinceDefinition
+		id="39" provinceName="Fenzhou" color="226, 38, 173" capitalName="Xihe" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="7" pop="59000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="8" pop="69000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="7" pop="59000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="7" pop="59000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--沁州 沁源-->
+	<ProvinceDefinition
+		id="40" provinceName="Qinzhou" color="193, 204, 207" capitalName="Qinyuan" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="5" pop="7000" owner="HD" isLegal="HD"/>
+		<History year="906" economy="6" pop="12000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="5" pop="7000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="5" pop="7000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	
+	<!--河中-->
+	<!--隰州 隰川-->
+	<ProvinceDefinition
+		id="41" provinceName="Xizhou" color="73, 22, 182" capitalName="Xichuan" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="3" pop="20000" owner="HZ" isLegal="HZ"/>
+		<History year="906" economy="4" pop="25000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="20000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="20000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--晋州 临汾-->
+	<ProvinceDefinition
+		id="42" provinceName="Jinzhou" color="9, 105, 17" capitalName="Linfen" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="8" pop="65000" owner="HZ" isLegal="HZ"/>
+		<History year="906" economy="8" pop="55000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="65000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="8" pop="65000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--慈州 吉昌-->
+	<ProvinceDefinition
+		id="43" provinceName="Cizhou" color="77, 17, 5" capitalName="Jichang" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="3" pop="12000" owner="HZ" isLegal="HZ"/>
+		<History year="906" economy="3" pop="15000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="12000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--绛州 正平-->
+	<ProvinceDefinition
+		id="44" provinceName="Jiangzhou" color="32, 246, 189" capitalName="Zhengping" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="8" pop="82000" owner="HZ" isLegal="HZ"/>
+		<History year="906" economy="8" pop="72000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="82000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--蒲州 河中府 河东-->
+	<ProvinceDefinition
+		id="45" provinceName="Puzhou" color="32, 51, 23" capitalName="Hedong" isMajor="true" maxDef="5000" huhuaness="0.2">
+		<History year="755" economy="9" pop="71000" owner="HZ" isLegal="HZ"/>
+		<History year="906" economy="8" pop="61000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="81000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	
+	<!--河阳-->
+	<!--怀州 河内-->
+	<ProvinceDefinition
+		id="46" provinceName="Huaizhou" color="162, 89, 15" capitalName="Henei" isPlain="true" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="8" pop="55000" owner="ZY" isLegal="ZY"/>
+		<History year="820" economy="8" pop="55000" owner="HY" isLegal="HY"/>
+		<History year="906" economy="6" pop="35000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="55000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--孟州 河阳-->
+	<ProvinceDefinition
+		id="47" provinceName="Mengzhou" color="255, 110, 74" capitalName="Heyang" isPlain="true" maxDef="6000" huhuaness="0.2">
+		<History year="755" economy="5" pop="30000" owner="ZY" isLegal="ZY"/>
+		<History year="820" economy="5" pop="30000" owner="HY" isLegal="HY"/>
+		<History year="906" economy="4" pop="20000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="30000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!----------------------------------------------------------------------------------------------------------->
+	<!--振武-->
+	<!--胜州 榆林-->
+	<ProvinceDefinition
+		id="48" provinceName="Shengzhou" color="23, 114, 128" capitalName="Yulin" maxDef="4000" huhuaness="0.9">
+		<History year="755" economy="2" pop="24000" owner="ZW" isLegal="ZW"/>
+		<History year="906" economy="3" pop="44000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="2" pop="24000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="24000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--丰州 九原-->
+	<ProvinceDefinition
+		id="49" provinceName="Fengzhou" color="39, 118, 35" capitalName="Jiuyuan" maxDef="5000" huhuaness="0.9">
+		<History year="755" economy="3" pop="33000" owner="SF" isLegal="SF"/>
+		<History year="820" economy="3" pop="33000" owner="ZW" isLegal="ZW"/>
+		<History year="906" economy="4" pop="53000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="3" pop="33000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="33000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--麟州 新秦-->
+	<ProvinceDefinition
+		id="50" provinceName="Linzhou" color="178, 15, 159" capitalName="Heyang" maxDef="3000" huhuaness="0.8">
+		<History year="755" economy="2" pop="14000" owner="ZW" isLegal="ZW"/>
+		<History year="906" economy="3" pop="24000" owner="JI" isLegal="JI"/>
+		<History year="2024" economy="2" pop="14000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="14000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!--夏绥-->
+	<!--银州 儒林-->
+	<ProvinceDefinition
+		id="51" provinceName="Yinzhou" color="70, 220, 220" capitalName="Rulin" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="20000" owner="ZW" isLegal="ZW"/>
+		<History year="820" economy="2" pop="20000" owner="XS" isLegal="XS"/>
+		<History year="906" economy="3" pop="60000" owner="XS" isLegal="XS"/>
+		<History year="2024" economy="2" pop="20000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="20000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--绥州 上县-->
+	<ProvinceDefinition
+		id="52" provinceName="Suizhou" color="55, 114, 54" capitalName="Shangxian" maxDef="5000" huhuaness="0.8">
+		<History year="755" economy="3" pop="21000" owner="ZW" isLegal="ZW"/>
+		<History year="820" economy="3" pop="21000" owner="XS" isLegal="XS"/>
+		<History year="906" economy="4" pop="52000" owner="XS" isLegal="XS"/>
+		<History year="2024" economy="3" pop="21000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="3" pop="21000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--夏州 朔方-->
+	<ProvinceDefinition
+		id="53" provinceName="Xiazhou" color="30, 28, 7" capitalName="Shuofang" maxDef="4000" huhuaness="0.9">
+		<History year="755" economy="2" pop="30000" owner="SF" isLegal="SF"/>
+		<History year="820" economy="2" pop="30000" owner="XS" isLegal="XS"/>
+		<History year="906" economy="3" pop="65000" owner="XS" isLegal="XS"/>
+		<History year="2024" economy="2" pop="30000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="30000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--宥州 延恩-->
+	<ProvinceDefinition
+		id="54" provinceName="Youzhou" color="134, 217, 219" capitalName="Yanen" maxDef="3000" huhuaness="0.9">
+		<History year="755" economy="2" pop="18000" owner="SF" isLegal="SF"/>
+		<History year="820" economy="2" pop="18000" owner="XS" isLegal="XS"/>
+		<History year="906" economy="3" pop="44000" owner="XS" isLegal="XS"/>
+		<History year="2024" economy="2" pop="18000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="18000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	
+	<!--朔方-->
+	<!--盐州 五原-->
+	<ProvinceDefinition
+		id="55" provinceName="Yanzhou" color="89, 119, 97" capitalName="Wuyuan" maxDef="5000" huhuaness="0.9">
+		<History year="755" economy="2" pop="36000" owner="SF" isLegal="SF"/>
+		<History year="906" economy="2" pop="36000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="2" pop="36000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="2" pop="36000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+	<!--灵州 回乐-->
+	<ProvinceDefinition
+		id="56" provinceName="Lingzhou" color="247, 240, 43" capitalName="Huile" isPlain="true" isMajor="true" maxDef="6000" huhuaness="0.9">
+		<History year="755" economy="4" pop="81000" owner="SF" isLegal="SF"/>
+		<History year="2024" economy="5" pop="81000" owner="QN" isLegal="QN"/>
+		<History year="2025" economy="4" pop="71000" owner="HB" isLegal="HB"/>
+	</ProvinceDefinition>
+
+	<!--鄜坊-->
+	<!--延州 肤施-->
+	<ProvinceDefinition
+		id="57" provinceName="Yanzhou" color="98, 230, 86" capitalName="Fushi" maxDef="6000" huhuaness="0.8">
+		<History year="755" economy="3" pop="25000" owner="FF" isLegal="FF"/>
+		<History year="906" economy="3" pop="25000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="3" pop="25000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--丹州 义川-->
+	<ProvinceDefinition
+		id="58" provinceName="Danzhou" color="255, 96, 88" capitalName="Yichuan" maxDef="5000" huhuaness="0.8">
+		<History year="755" economy="3" pop="22000" owner="FF" isLegal="FF"/>
+		<History year="906" economy="3" pop="22000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="3" pop="22000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--鄜州 洛交-->
+	<ProvinceDefinition
+		id="59" provinceName="Fuzhou" color="65, 78, 220" capitalName="Luojiao" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="5" pop="34000" owner="FF" isLegal="FF"/>
+		<History year="906" economy="5" pop="34000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="5" pop="34000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--坊州 中部-->
+	<ProvinceDefinition
+		id="60" provinceName="Fangzhou" color="48, 92, 39" capitalName="Zhongbu" maxDef="5000" huhuaness="0.7">
+		<History year="755" economy="5" pop="35000" owner="FF" isLegal="FF"/>
+		<History year="906" economy="5" pop="35000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="5" pop="35000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--邠宁-->
+	<!--庆州 顺化-->
+	<ProvinceDefinition
+		id="61" provinceName="Qingzhou" color="139, 120, 15" capitalName="Shunhua" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="4" pop="34000" owner="BN" isLegal="BN"/>
+		<History year="906" economy="4" pop="34000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="4" pop="34000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--宁州 定安-->
+	<ProvinceDefinition
+		id="62" provinceName="Ningzhou" color="15, 141, 204" capitalName="Dingan" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="4" pop="47000" owner="BN" isLegal="BN"/>
+		<History year="906" economy="4" pop="47000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="4" pop="47000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--邠州 新平-->
+	<ProvinceDefinition
+		id="63" provinceName="Binzhou" color="73, 58, 53" capitalName="Xinping" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="5" pop="43000" owner="BN" isLegal="BN"/>
+		<History year="906" economy="5" pop="43000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="5" pop="43000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--泾原-->
+	<!--泾州 安定-->
+	<ProvinceDefinition
+		id="64" provinceName="Jingzhou" color="85, 211, 83" capitalName="Anding" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="4" pop="42000" owner="JY" isLegal="JY"/>
+		<History year="906" economy="4" pop="42000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="4" pop="42000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--凤翔-->
+	<!--陇州 汧源-->
+	<ProvinceDefinition
+		id="65" provinceName="Longzhou" color="42, 52, 85" capitalName="Qianyuan" isMountain="true" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="5" pop="35000" owner="FX" isLegal="FX"/>
+		<History year="906" economy="5" pop="45000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="5" pop="35000"owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--岐州 凤翔府 天兴-->
+	<ProvinceDefinition
+		id="66" provinceName="Qizhou" color="210, 79, 27" capitalName="Tianxing" isPlain="true" maxDef="6000" huhuaness="0.1">
+		<History year="755" economy="8" pop="64000" owner="FX" isLegal="FX"/>
+		<History year="906" economy="8" pop="95000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="8" pop="84000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--朝廷-->
+	<!--雍州 京兆府 万年-->
+	<ProvinceDefinition
+		id="67" provinceName="Yongzhou" color="0, 34, 255" capitalName="Wannian" isPlain="true" isMajor="true" maxDef="6000" huhuaness="0.1">
+		<History year="755" economy="10" pop="362000" owner="DT" isLegal="DT"/>
+		<History year="906" economy="8" pop="74000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="10" pop="362000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--同州 冯翊-->
+	<ProvinceDefinition
+		id="68" provinceName="Tongzhou" color="249, 216, 0" capitalName="Pingyi" isPlain="true" maxDef="4000" huhuaness="0.1">
+		<History year="755" economy="7" pop="61000" owner="DT" isLegal="DT"/>
+		<History year="906" economy="6" pop="51000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="61000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--华州 郑-->
+	<ProvinceDefinition
+		id="69" provinceName="Huazhou" color="65, 219, 45" capitalName="Zheng" isPlain="true" maxDef="7000" huhuaness="0.1">
+		<History year="755" economy="8" pop="33000" owner="DT" isLegal="DT"/>
+		<History year="906" economy="6" pop="23000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="33000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	
+	<!--金商-->
+	<!--商州 上洛-->
+	<ProvinceDefinition
+		id="70" provinceName="Shangzhou" color="42, 235, 229" capitalName="Shangluo" isMountain="true" maxDef="6000" huhuaness="0.3">
+		<History year="755" economy="6" pop="9000" owner="DT" isLegal="DT"/>
+		<History year="820" economy="6" pop="9000" owner="JS" isLegal="JS"/>
+		<History year="906" economy="6" pop="12000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="9000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--金州 西城-->
+	<ProvinceDefinition
+		id="71" provinceName="Jinzhou" color="158, 4, 156" capitalName="Xicheng" isMountain="true" maxDef="6000" huhuaness="0.2">
+		<History year="755" economy="4" pop="14000" owner="SX" isLegal="SX"/>
+		<History year="820" economy="4" pop="14000" owner="JS" isLegal="JS"/>
+		<History year="906" economy="4" pop="14000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="14000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="14000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	
+	
+	<!----------------------------------------------------------------------------------------------------------->
+	<!--陕虢-->
+	<!--陕州 陕-->
+	<ProvinceDefinition
+		id="72" provinceName="Shanzhou" color="221, 85, 233" capitalName="Shan" maxDef="5000" huhuaness="0.1">
+		<History year="755" economy="8" pop="31000" owner="DJ" isLegal="DJ"/>
+		<History year="820" economy="8" pop="31000" owner="SG" isLegal="SG"/>
+		<History year="906" economy="7" pop="32000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="31000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--虢州 弘农-->
+	<ProvinceDefinition
+		id="73" provinceName="Guozhou" color="179, 1, 79" capitalName="Hongnong" isMountain="true" maxDef="6000" huhuaness="0.3">
+		<History year="755" economy="6" pop="28000" owner="DJ" isLegal="DJ"/>
+		<History year="820" economy="6" pop="28000" owner="SG" isLegal="SG"/>
+		<History year="906" economy="5" pop="29000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="28000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	
+	<!--都畿-->
+	<!--洛州 河南府 河南-->
+	<ProvinceDefinition
+		id="74" provinceName="Luozhou" color="121, 248, 90" capitalName="Henan" isPlain="true" isMajor="true" maxDef="5000" huhuaness="0.1">
+		<History year="755" economy="10" pop="195000" owner="DJ" isLegal="DJ"/>
+		<History year="906" economy="8" pop="60000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="10" pop="195000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--汝州 梁-->
+	<ProvinceDefinition
+		id="75" provinceName="Ruzhou" color="13, 62, 197" capitalName="Liang" maxDef="5000" huhuaness="0.2">
+		<History year="755" economy="7" pop="69000" owner="DJ" isLegal="DJ"/>
+		<History year="906" economy="6" pop="55000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="69000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--义成 郑滑-->
+	<!--郑州 管城-->
+	<ProvinceDefinition
+		id="76" provinceName="Zhengzhou" color="93, 52, 11" capitalName="Guancheng" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="77000" owner="JY" isLegal="JY"/>
+		<History year="820" economy="8" pop="77000" owner="YC" isLegal="YC"/>
+		<History year="906" economy="7" pop="74000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="77000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--滑州 白马-->
+	<ProvinceDefinition
+		id="77" provinceName="Huazhou" color="146, 55, 134" capitalName="Baima" isPlain="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="72000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="8" pop="72000" owner="YC" isLegal="YC"/>
+		<History year="906" economy="7" pop="64000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="72000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--忠武 陈许-->
+	<!--许州 长社-->
+	<ProvinceDefinition
+		id="78" provinceName="Xuzhou" color="87, 86, 49" capitalName="Changshe" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="73000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="8" pop="73000" owner="CX" isLegal="CX"/>
+		<History year="906" economy="7" pop="60000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="73000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--溵州 郾城-->
+	<ProvinceDefinition
+		id="79" provinceName="Yinzhou" color="56, 101, 55" capitalName="Yancheng" isPlain="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="7" pop="25000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="7" pop="25000" owner="CX" isLegal="CX"/>
+		<History year="906" economy="6" pop="15000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="25000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--陈州 宛丘-->
+	<ProvinceDefinition
+		id="80" provinceName="Chenzhou" color="41, 82, 82" capitalName="Wanqiu" isPlain="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="7" pop="66000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="7" pop="66000" owner="CX" isLegal="CX"/>
+		<History year="906" economy="6" pop="52000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="7" pop="66000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--蔡州 汝阳-->
+	<ProvinceDefinition
+		id="81" provinceName="Caizhou" color="94, 19, 224" capitalName="Ruyang" isPlain="true" isMajor="true" maxDef="5000" huhuaness="0.7">
+		<History year="755" economy="8" pop="113000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="8" pop="87000" owner="CX" isLegal="HX"/>
+		<History year="906" economy="6" pop="47000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="87000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--宣武 汴宋-->
+	<!--汴州 浚仪-->
+	<ProvinceDefinition
+		id="82" provinceName="Bianzhou" color="178, 12, 48" capitalName="Junyi" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="9" pop="110000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="9" pop="110000" owner="XW" isLegal="XW"/>
+		<History year="906" economy="9" pop="142000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="110000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--宋州 宋城-->
+	<ProvinceDefinition
+		id="83" provinceName="Songzhou" color="97, 106, 204" capitalName="Songcheng" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="9" pop="124000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="9" pop="124000" owner="XW" isLegal="XW"/>
+		<History year="906" economy="8" pop="84000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="124000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--亳州 谯-->
+	<ProvinceDefinition
+		id="84" provinceName="Bozhou" color="201, 31, 181" capitalName="Qiao" isPlain="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="8" pop="89000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="8" pop="89000" owner="XW" isLegal="XW"/>
+		<History year="906" economy="6" pop="69000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="89000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--颍州 汝阴-->
+	<ProvinceDefinition
+		id="85" provinceName="Yingzhou" color="125, 156, 136" capitalName="Ruyin" isPlain="true" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="6" pop="31000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="6" pop="31000" owner="XW" isLegal="XW"/>
+		<History year="906" economy="5" pop="21000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="31000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--天平-->
+	<!--曹州 济阴-->
+	<ProvinceDefinition
+		id="86" provinceName="Caozhou" color="241, 2, 62" capitalName="Jiyin" isPlain="true" isMajor="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="9" pop="100000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="9" pop="100000" owner="TP" isLegal="TP"/>
+		<History year="906" economy="7" pop="70000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="100000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--濮州 鄄城-->
+	<ProvinceDefinition
+		id="87" provinceName="Puzhou" color="0, 15, 152" capitalName="Juancheng" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="58000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="8" pop="58000" owner="TP" isLegal="TP"/>
+		<History year="906" economy="7" pop="40000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="58000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--郓州 郓城-->
+	<ProvinceDefinition
+		id="88" provinceName="Yunzhou" color="78, 70, 19" capitalName="Yuncheng" isPlain="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="83000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="8" pop="83000" owner="TP" isLegal="TP"/>
+		<History year="906" economy="7" pop="72000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="83000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--平卢-->
+	<!--齐州 历城-->
+	<ProvinceDefinition
+		id="89" provinceName="Qizhou" color="12, 14, 134" capitalName="Licheng" isPlain="true" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="8" pop="62000" owner="PL" isLegal="PL"/>
+		<History year="906" economy="8" pop="57000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="62000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--淄州 淄川-->
+	<ProvinceDefinition
+		id="90" provinceName="Zizhou" color="34, 201, 101" capitalName="Zichuan" isPlain="true" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="8" pop="43000" owner="PL" isLegal="PL"/>
+		<History year="906" economy="7" pop="40000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="43000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--青州 益都-->
+	<ProvinceDefinition
+		id="91" provinceName="Qingzhou" color="120, 40, 9" capitalName="Yidu" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="9" pop="73000" owner="PL" isLegal="PL"/>
+		<History year="906" economy="9" pop="68000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="73000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--莱州 掖-->
+	<ProvinceDefinition
+		id="92" provinceName="Laizhou" color="68, 86, 66" capitalName="Ye" maxDef="2000" huhuaness="0.5">
+		<History year="755" economy="4" pop="27000" owner="PL" isLegal="PL"/>
+		<History year="906" economy="4" pop="29000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="4" pop="27000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--登州 蓬莱-->
+	<ProvinceDefinition
+		id="93" provinceName="Dengzhou" color="79, 163, 163" capitalName="Penglai" maxDef="2000" huhuaness="0.5">
+		<History year="755" economy="5" pop="22000" owner="PL" isLegal="PL"/>
+		<History year="906" economy="5" pop="26000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="22000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--兖海-->
+	<!--兖州 曲阜-->
+	<ProvinceDefinition
+		id="94" provinceName="Yanzhou" color="183, 183, 152" capitalName="Qufu" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="9" pop="88000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="9" pop="88000" owner="YH" isLegal="YH"/>
+		<History year="906" economy="8" pop="75000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="9" pop="88000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--沂州 临沂-->
+	<ProvinceDefinition
+		id="95" provinceName="Yizhou" color="13, 149, 144" capitalName="Linyi" isMountain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="4" pop="34000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="4" pop="34000" owner="YH" isLegal="YH"/>
+		<History year="906" economy="4" pop="35000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="4" pop="34000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--密州 诸城-->
+	<ProvinceDefinition
+		id="96" provinceName="Mizhou" color="30, 33, 72" capitalName="Zhucheng" maxDef="2000" huhuaness="0.4">
+		<History year="755" economy="5" pop="28000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="5" pop="28000" owner="YH" isLegal="YH"/>
+		<History year="906" economy="5" pop="30000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="28000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--海州 朐山-->
+	<ProvinceDefinition
+		id="97" provinceName="Haizhou" color="166, 66, 81" capitalName="Qushan" isPlain="true" maxDef="2000" huhuaness="0.4">
+		<History year="755" economy="5" pop="29000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="5" pop="29000" owner="YH" isLegal="YH"/>
+		<History year="906" economy="5" pop="32000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="5" pop="29000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--武宁 徐泗-->
+	<!--徐州 彭城-->
+	<ProvinceDefinition
+		id="98" provinceName="Xuzhou" color="24, 35, 113" capitalName="Pengcheng" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="8" pop="75000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="8" pop="75000" owner="WN" isLegal="WN"/>
+		<History year="906" economy="7" pop="58000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="75000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--宿州 苻离-->
+	<ProvinceDefinition
+		id="99" provinceName="Suzhou" color="41, 210, 229" capitalName="Fuli" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="5" pop="21000" owner="PL" isLegal="PL"/>
+		<History year="820" economy="5" pop="21000" owner="WN" isLegal="WN"/>
+		<History year="906" economy="5" pop="17000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="21000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--泗州 临淮-->
+	<ProvinceDefinition
+		id="100" provinceName="Sizhou" color="199, 77, 197" capitalName="Linhuai" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="7" pop="38000" owner="YP" isLegal="YP"/>
+		<History year="820" economy="7" pop="38000" owner="WN" isLegal="WN"/>
+		<History year="906" economy="7" pop="41000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="38000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--濠州 钟离-->
+	<ProvinceDefinition
+		id="101" provinceName="Haozhou" color="199, 77, 113" capitalName="Zhongli" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="6" pop="22000" owner="HN" isLegal="HN"/>
+		<History year="820" economy="6" pop="22000" owner="WN" isLegal="WN"/>
+		<History year="906" economy="6" pop="26000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="22000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	<!--淮南-->
+	<!--楚州 山阳-->
+	<ProvinceDefinition
+		id="102" provinceName="Chuzhou" color="32, 99, 16" capitalName="Shanyang" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="6" pop="26000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="6" pop="34000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="26000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--扬州 江都-->
+	<ProvinceDefinition
+		id="103" provinceName="Yangzhou" color="171, 174, 206" capitalName="Jiangdu" isPlain="true" isMajor="true"  maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="77000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="8" pop="98000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="77000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="8" pop="77000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--滁州 清流-->
+	<ProvinceDefinition
+		id="104" provinceName="Chuzhou" color="113, 33, 127" capitalName="Qingliu" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="5" pop="26000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="5" pop="31000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="5" pop="26000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="5" pop="26000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--和州 历阳-->
+	<ProvinceDefinition
+		id="105" provinceName="Hezhou" color="18, 26, 63" capitalName="Liyang" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="5" pop="25000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="5" pop="27000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="5" pop="25000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="5" pop="25000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--庐州 合肥-->
+	<ProvinceDefinition
+		id="106" provinceName="Luzhou" color="74, 169, 43" capitalName="Hefei" isPlain="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="7" pop="43000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="7" pop="51000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="43000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="7" pop="43000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--寿州 寿春-->
+	<ProvinceDefinition
+		id="107" provinceName="Shouzhou" color="95, 155, 207" capitalName="Shouchun" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="5" pop="36000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="5" pop="36000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="5" pop="39000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="5" pop="36000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--光州 定城-->
+	<ProvinceDefinition
+		id="108" provinceName="Guangzhou" color="127, 99, 137" capitalName="Dingcheng" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="6" pop="32000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="6" pop="32000" owner="HN" isLegal="HX"/>
+		<History year="906" economy="5" pop="30000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="32000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="32000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--舒州 怀宁-->
+	<ProvinceDefinition
+		id="109" provinceName="Shuzhou" color="216, 16, 46" capitalName="Huaining" isMountain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="6" pop="35000" owner="HN" isLegal="HN"/>
+		<History year="906" economy="6" pop="36000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="35000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="6" pop="35000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	
+	
+	<!--兴凤-->
+	<!--凤州 梁泉-->
+	<ProvinceDefinition
+		id="110" provinceName="Fengzhou" color="171, 11, 99" capitalName="Liangquan" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="3" pop="16000" owner="XF" isLegal="XF"/>
+		<History year="906" economy="3" pop="16000" owner="QI" isLegal="QI"/>
+		<History year="2024" economy="3" pop="16000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="16000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--兴州 顺政-->
+	<ProvinceDefinition
+		id="111" provinceName="Xingzhou" color="97, 90, 186" capitalName="Shunzheng" isMountain="true" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="3" pop="12000" owner="XF" isLegal="XF"/>
+		<History year="906" economy="3" pop="12000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="12000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="12000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--山南西道-->
+	<!--兴元府 梁州 南郑-->
+	<ProvinceDefinition
+		id="112" provinceName="Liangzhou" color="28, 142, 138" capitalName="Nanzheng" isMajor="true" isMountain="true" maxDef="5000" huhuaness="0.3">
+		<History year="755" economy="7" pop="38000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="7" pop="48000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="48000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="48000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--洋州 兴道-->
+	<ProvinceDefinition
+		id="113" provinceName="Yangzhou" color="52, 181, 32" isMountain="true" capitalName="Xingdao" maxDef="8000" huhuaness="0.4">
+		<History year="755" economy="5" pop="24000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="5" pop="24000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="28000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="24000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--文州 曲水-->
+	<ProvinceDefinition
+		id="114" provinceName="Wenzhou" color="24, 27, 204" capitalName="Qushui" isMountain="true" maxDef="4000" huhuaness="0.9">
+		<History year="755" economy="2" pop="2000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="2" pop="2000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="2" pop="2000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="2" pop="2000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--利州 绵谷-->
+	<ProvinceDefinition
+		id="115" provinceName="Lizhou" color="12, 79, 48" capitalName="Miangu" isMountain="true" maxDef="6000" huhuaness="0.6">
+		<History year="755" economy="3" pop="14000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="3" pop="14000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="14000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="14000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--集州 难江-->
+	<ProvinceDefinition
+		id="116" provinceName="Jizhou" color="29, 21, 51" capitalName="Nanjiang" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="5000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="4" pop="5000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="8000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="5000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--壁州 通江-->
+	<ProvinceDefinition
+		id="117" provinceName="Bizhou" color="33, 212, 170" capitalName="Tongjiang" isMountain="true" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="4" pop="14000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="4" pop="14000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="18000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="14000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--阆州 阆中-->
+	<ProvinceDefinition
+		id="118" provinceName="Langzhou" color="78, 204, 24" capitalName="Langzhong" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="5" pop="30000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="5" pop="30000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="35000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="30000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--巴州 化城-->
+	<ProvinceDefinition
+		id="119" provinceName="Bazhou" color="111, 125, 53" capitalName="Huacheng" maxDef="6000" huhuaness="0.3">
+		<History year="755" economy="6" pop="31000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="6" pop="31000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="6" pop="34000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="6" pop="31000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--果州 南充-->
+	<ProvinceDefinition
+		id="120" provinceName="Guozhou" color="96, 17, 85" capitalName="Nanchong" maxDef="5000" huhuaness="0.4">
+		<History year="755" economy="5" pop="34000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="5" pop="34000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="37000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="34000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--蓬州 蓬池-->
+	<ProvinceDefinition
+		id="121" provinceName="Pengzhou" color="56, 57, 72" capitalName="Pengchi" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="4" pop="16000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="4" pop="16000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="18000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="16000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--渠州 流江-->
+	<ProvinceDefinition
+		id="122" provinceName="Quzhou" color="85, 218, 32" capitalName="Liujiang" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="4" pop="10000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="4" pop="10000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="10000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="10000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--通州 通川-->
+	<ProvinceDefinition
+		id="123" provinceName="Tongzhou" color="236, 35, 55" capitalName="Tongchuan" isMountain="true" maxDef="5000" huhuaness="0.4">
+		<History year="755" economy="4" pop="41000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="4" pop="41000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="41000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="41000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--开州 开江-->
+	<ProvinceDefinition
+		id="124" provinceName="Kaizhou" color="53, 64, 87" capitalName="Kaijiang" isMountain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="3" pop="6000" owner="SX" isLegal="SX"/>
+		<History year="906" economy="3" pop="6000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="10000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="6000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--荆南-->
+	<!--涪州 涪陵-->
+	<ProvinceDefinition
+		id="125" provinceName="Fuzhou" color="38, 87, 189" capitalName="Fuling" isMountain="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="4" pop="10000" owner="KZ" isLegal="KZ"/>
+		<History year="820" economy="4" pop="10000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="4" pop="10000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="10000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="10000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--万州 南浦-->
+	<ProvinceDefinition
+		id="126" provinceName="Wanzhou" color="59, 151, 140" capitalName="Nanpu" isMountain="true" maxDef="6000" huhuaness="0.5">
+		<History year="755" economy="3" pop="5000" owner="KZ" isLegal="KZ"/>
+		<History year="820" economy="3" pop="5000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="3" pop="5000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="5000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="5000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--夔州 奉节-->
+	<ProvinceDefinition
+		id="127" provinceName="Kuizhou" color="28, 28, 96" capitalName="Fengjie" isMountain="true" maxDef="8000" huhuaness="0.5">
+		<History year="755" economy="4" pop="16000" owner="KZ" isLegal="KZ"/>
+		<History year="820" economy="4" pop="16000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="4" pop="16000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="4" pop="25000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="16000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--归州 秭归-->
+	<ProvinceDefinition
+		id="128" provinceName="Guizhou" color="19, 105, 32" capitalName="Zigui" isMountain="true" maxDef="7000" huhuaness="0.6">
+		<History year="755" economy="3" pop="5000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="3" pop="5000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="3" pop="10000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="10000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--峡州 夷陵-->
+	<ProvinceDefinition
+		id="129" provinceName="Xiazhou" color="225, 114, 223" capitalName="Yiling" isMountain="true" maxDef="8000" huhuaness="0.6">
+		<History year="755" economy="3" pop="8000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="3" pop="8000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="3" pop="18000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="18000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--荆州 江陵府 江陵-->
+	<ProvinceDefinition
+		id="130" provinceName="Jingzhou" color="11, 141, 143" capitalName="Jiangling" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="7" pop="30000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="7" pop="26000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="60000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="8" pop="32000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--澧州 澧阳-->
+	<ProvinceDefinition
+		id="131" provinceName="Lizhou" color="195, 16, 49" capitalName="Liyang" maxDef="3000" huhuaness="0.6">
+		<History year="755" economy="3" pop="20000" owner="JN" isLegal="JN"/>
+		<History year="2024" economy="4" pop="30000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="30000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--朗州 武陵-->
+	<ProvinceDefinition
+		id="132" provinceName="Langzhou" color="93, 28, 98" capitalName="Wuling" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="4" pop="9000" owner="JN" isLegal="JN"/>
+		<History year="2024" economy="5" pop="29000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="29000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--忠州 临江-->
+	<ProvinceDefinition
+		id="133" provinceName="Zhongzhou" color="63, 63, 34" capitalName="Linjiang" isMountain="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="3" pop="7000" owner="KZ" isLegal="KZ"/>
+		<History year="820" economy="3" pop="7000" owner="JN" isLegal="JN"/>
+		<History year="906" economy="3" pop="7000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="7000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="7000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	
+	<!--山南东道-->
+	<!--邓州 穰-->
+	<ProvinceDefinition
+		id="134" provinceName="Dengzhou" color="11, 143, 68" capitalName="Rang" isPlain="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="5" pop="43000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="5" pop="37000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="43000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="43000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--唐州 泌阳-->
+	<ProvinceDefinition
+		id="135" provinceName="Tangzhou" color="25, 36, 63" capitalName="Biyang" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="5" pop="43000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="5" pop="43000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="5" pop="36000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="53000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="53000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--均州 武当-->
+	<ProvinceDefinition
+		id="136" provinceName="Junzhou" color="142, 105, 20" capitalName="Wudang" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="3" pop="10000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="3" pop="11000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="3" pop="15000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="15000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--房州 房陵-->
+	<ProvinceDefinition
+		id="137" provinceName="Fangzhou" color="109, 171, 100" capitalName="Fangling" maxDef="6000" huhuaness="0.5">
+		<History year="755" economy="3" pop="14000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="3" pop="15000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="4" pop="18000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="14000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--襄州 襄阳-->
+	<ProvinceDefinition
+		id="138" provinceName="Xiangzhou" color="46, 151, 212" capitalName="Xiangyang" isPlain="true" isMajor="true" maxDef="6000" huhuaness="0.2">
+		<History year="755" economy="7" pop="48000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="7" pop="48000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="8" pop="58000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="7" pop="48000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--随州 随-->
+	<ProvinceDefinition
+		id="139" provinceName="Suizhou" color="122, 26, 120" capitalName="Sui" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="4" pop="24000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="4" pop="24000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="4" pop="24000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="34000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="24000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--郢州 长寿-->
+	<ProvinceDefinition
+		id="140" provinceName="Yingzhou" color="9, 197, 53" capitalName="Changshou" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="4" pop="12000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="4" pop="12000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="4" pop="20000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="12000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--复州 竟陵-->
+	<ProvinceDefinition
+		id="141" provinceName="Fuzhou" color="160, 72, 91" capitalName="Jingling" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="4" pop="8000" owner="SD" isLegal="SD"/>
+		<History year="906" economy="4" pop="8000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="4" pop="18000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="8000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--鄂岳-->
+	<!--申州 义阳-->
+	<ProvinceDefinition
+		id="142" provinceName="Shenzhou" color="237, 98, 112" capitalName="Yiyang" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="6" pop="36000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="5" pop="36000" owner="EY" isLegal="HX"/>
+		<History year="906" economy="5" pop="30000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="6" pop="36000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="36000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--安州 安陆-->
+	<ProvinceDefinition
+		id="143" provinceName="Anzhou" color="101, 88, 161" capitalName="Anlu" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="4" pop="22000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="4" pop="22000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="4" pop="23000" owner="HL" isLegal="HL"/>
+		<History year="2024" economy="5" pop="28000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="28000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--黄州 黄冈-->
+	<ProvinceDefinition
+		id="144" provinceName="Huangzhou" color="123, 186, 193" capitalName="Huanggang" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="4" pop="16000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="4" pop="16000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="4" pop="17000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="5" pop="28000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="28000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--蕲州 蕲春-->
+	<ProvinceDefinition
+		id="145" provinceName="Qizhou" color="72, 12, 65" capitalName="Qichun" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="5" pop="27000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="5" pop="27000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="5" pop="27000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="27000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="27000" owner="LI" isLegal="LI"/>
+	</ProvinceDefinition>
+	<!--沔州 汉阳-->
+	<ProvinceDefinition
+		id="146" provinceName="Mianzhou" color="27, 178, 83" capitalName="Hanyang" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="5" pop="9000" owner="HX" isLegal="HX"/>
+		<History year="820" economy="5" pop="9000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="5" pop="10000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="29000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="10000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--鄂州 江夏-->
+	<ProvinceDefinition
+		id="147" provinceName="Ezhou" color="225, 16, 30" capitalName="Jiangxia" isPlain="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="6" pop="19000" owner="JJ" isLegal="JJ"/>
+		<History year="820" economy="6" pop="19000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="6" pop="21000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="39000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="7" pop="19000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--岳州 巴陵-->
+	<ProvinceDefinition
+		id="148" provinceName="Yuezhou" color="181, 179, 200" capitalName="Baling" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="5" pop="12000" owner="JN" isLegal="JN"/>
+		<History year="820" economy="5" pop="12000" owner="EY" isLegal="EY"/>
+		<History year="906" economy="5" pop="13000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="6" pop="32000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="13000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--剑南东道-->
+	<!--龙州 江油-->
+	<ProvinceDefinition
+		id="149" provinceName="Longzhou" color="193, 127, 199" capitalName="Jiangyou" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="3000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="2" pop="3000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="2" pop="3000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="2" pop="3000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--剑州 普安-->
+	<ProvinceDefinition
+		id="150" provinceName="Jianzhou" color="7, 94, 145" capitalName="Puan" isMountain="true" maxDef="6000" huhuaness="0.2">
+		<History year="755" economy="5" pop="24000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="5" pop="24000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="34000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="24000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--绵州 巴西-->
+	<ProvinceDefinition
+		id="151" provinceName="Mianzhou" color="89, 55, 35" capitalName="Baxi" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="7" pop="65000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="7" pop="65000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="75000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="65000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--梓州 郪-->
+	<ProvinceDefinition
+		id="152" provinceName="Zizhou" color="18, 137, 170" capitalName="Qi" isMajor="true" maxDef="4000" huhuaness="0.1">
+		<History year="755" economy="8" pop="62000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="8" pop="62000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="8" pop="72000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="8" pop="62000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--普州 安岳-->
+	<ProvinceDefinition
+		id="153" provinceName="Puzhou" color="169, 100, 176" capitalName="Anyue" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="6" pop="26000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="6" pop="26000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="6" pop="36000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="6" pop="26000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--遂州 方义-->
+	<ProvinceDefinition
+		id="154" provinceName="Suizhou" color="61, 132, 20" capitalName="Fangyi" maxDef="4000" huhuaness="0.1">
+		<History year="755" economy="6" pop="36000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="6" pop="36000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="6" pop="46000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="6" pop="36000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--合州 石镜-->
+	<ProvinceDefinition
+		id="155" provinceName="Hezhou" color="139, 153, 167" capitalName="Shijing" isMountain="true" maxDef="8000" huhuaness="0.2">
+		<History year="755" economy="7" pop="67000" owner="SX" isLegal="SX"/>
+		<History year="820" economy="7" pop="67000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="7" pop="67000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="77000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="67000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--昌州 昌元-->
+	<ProvinceDefinition
+		id="156" provinceName="Changzhou" color="188, 28, 39" capitalName="Changyuan" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="5" pop="8000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="5" pop="8000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="18000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="8000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--渝州 巴-->
+	<ProvinceDefinition
+		id="157" provinceName="Yuzhou" color="36, 61, 40" capitalName="Ba" isMountain="true" maxDef="6000" huhuaness="0.3">
+		<History year="755" economy="7" pop="7000" owner="SX" isLegal="SX"/>
+		<History year="820" economy="7" pop="7000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="7" pop="7000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="17000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="7000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--泸州 泸川-->
+	<ProvinceDefinition
+		id="158" provinceName="Luzhou" color="120, 124, 130" capitalName="Luchuan" isMountain="true" maxDef="6000" huhuaness="0.3">
+		<History year="755" economy="5" pop="17000" owner="JX" isLegal="JX"/>
+		<History year="820" economy="5" pop="17000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="5" pop="17000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="27000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="17000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--荣州 旭川-->
+	<ProvinceDefinition
+		id="159" provinceName="Rongzhou" color="61, 145, 95" capitalName="Xuchuan" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="5" pop="6000" owner="JX" isLegal="JX"/>
+		<History year="820" economy="5" pop="6000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="5" pop="6000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="16000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="6000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--陵州 仁寿-->
+	<ProvinceDefinition
+		id="160" provinceName="Lingzhou" color="81, 71, 229" capitalName="Renshou" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="7" pop="35000" owner="JX" isLegal="JX"/>
+		<History year="820" economy="7" pop="35000" owner="JD" isLegal="JD"/>
+		<History year="906" economy="7" pop="35000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="45000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="35000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--剑南西道-->
+	<!--茂州 汶山-->
+	<ProvinceDefinition
+		id="161" provinceName="Maozhou" color="20, 186, 114" capitalName="Wenshan" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="2" pop="3000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="2" pop="3000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="2" pop="3000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="2" pop="3000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--彭州 九陇-->
+	<ProvinceDefinition
+		id="162" provinceName="Pengzhou" color="106, 111, 0" capitalName="Jiulong" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="60000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="8" pop="60000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="8" pop="70000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="8" pop="70000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--汉州 雒-->
+	<ProvinceDefinition
+		id="163" provinceName="Hanzhou" color="21, 35, 72" capitalName="Luo" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="69000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="8" pop="69000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="8" pop="79000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="8" pop="79000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--蜀州 晋原-->
+	<ProvinceDefinition
+		id="164" provinceName="Shuzhou" color="30, 99, 114" capitalName="Jinyuan" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="57000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="8" pop="57000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="8" pop="67000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="8" pop="67000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--益州 成都府 成都-->
+	<ProvinceDefinition
+		id="165" provinceName="Yizhou" color="160, 57, 208" capitalName="Chengdu" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="9" pop="161000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="9" pop="161000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="9" pop="161000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="9" pop="161000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--简州 阳安-->
+	<ProvinceDefinition
+		id="166" provinceName="Jianzhou" color="162, 99, 36" capitalName="Yangan" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="7" pop="23000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="7" pop="23000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="33000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="23000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--资州 磐石-->
+	<ProvinceDefinition
+		id="167" provinceName="Zizhou" color="11, 68, 11" capitalName="Panshi" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="6" pop="30000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="6" pop="30000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="6" pop="40000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="6" pop="30000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--邛州 临邛-->
+	<ProvinceDefinition
+		id="168" provinceName="Qiongzhou" color="64, 154, 50" capitalName="Linqiong" isMountain="true" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="5" pop="42000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="5" pop="42000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="52000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="42000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--雅州 严道-->
+	<ProvinceDefinition
+		id="169" provinceName="Yazhou" color="115, 188, 146" capitalName="Yandao" isMountain="true" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="3" pop="11000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="3" pop="11000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="3" pop="16000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="11000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--眉州 通义-->
+	<ProvinceDefinition
+		id="170" provinceName="Meizhou" color="108, 92, 108" capitalName="Tongyi" isPlain="true" maxDef="2000" huhuaness="0.2">
+		<History year="755" economy="7" pop="44000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="7" pop="44000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="7" pop="54000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="7" pop="44000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--黎州 汉源-->
+	<ProvinceDefinition
+		id="171" provinceName="Lizhou" color="26, 35, 107" capitalName="Hanyuan" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="2" pop="2000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="2" pop="2000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="2" pop="2000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="2" pop="2000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--嘉州 龙游-->
+	<ProvinceDefinition
+		id="172" provinceName="Jiazhou" color="206, 146, 55" capitalName="Longyou" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="6" pop="34000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="6" pop="34000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="6" pop="44000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="6" pop="34000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--嶲州 大和-->
+	<ProvinceDefinition
+		id="173" provinceName="Xizhou" color="125, 63, 45" capitalName="Dahe" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="41000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="4" pop="41000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="41000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="41000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--戎州 南溪-->
+	<ProvinceDefinition
+		id="174" provinceName="Rongzhou" color="209, 12, 78" capitalName="Nanxi" isMountain="true" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="5" pop="4000" owner="JX" isLegal="JX"/>
+		<History year="906" economy="5" pop="4000" owner="SV" isLegal="SV"/>
+		<History year="2024" economy="5" pop="14000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="5" pop="4000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+
+	<!--浙西-->
+	<!--升州 江宁-->
+	<ProvinceDefinition
+		id="175" provinceName="Shengzhou" color="141, 161, 29" capitalName="Jiangning" isPlain="true" maxDef="4000" huhuaness="0.1">
+		<History year="755" economy="8" pop="54000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="9" pop="104000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="74000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--润州 丹徒-->
+	<ProvinceDefinition
+		id="176" provinceName="Runzhou" color="14, 206, 139" capitalName="Dantu" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="82000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="8" pop="85000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="82000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--常州 晋陵-->
+	<ProvinceDefinition
+		id="177" provinceName="Changzhou" color="119, 60, 21" capitalName="Jinling" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="8" pop="103000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="8" pop="83000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="103000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--苏州 吴-->
+	<ProvinceDefinition
+		id="178" provinceName="Suzhou" color="130, 160, 113" capitalName="Wu" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="9" pop="76000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="9" pop="96000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="9" pop="106000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="9" pop="76000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--湖州 乌程-->
+	<ProvinceDefinition
+		id="179" provinceName="Huzhou" color="184, 169, 159" capitalName="Wucheng" isPlain="true" maxDef="2000" huhuaness="0.1">
+		<History year="755" economy="7" pop="73000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="7" pop="75000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="7" pop="73000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--杭州 钱塘-->
+	<ProvinceDefinition
+		id="180" provinceName="Hangzhou" color="125, 28, 150" capitalName="Qiantang" isPlain="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="86000" owner="ZX" isLegal="ZX"/>
+		<History year="906" economy="9" pop="110000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="8" pop="86000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--睦州 建德-->
+	<ProvinceDefinition
+		id="181" provinceName="Muzhou" color="28, 164, 232" capitalName="Jiande" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="7" pop="55000" owner="ZD" isLegal="ZD"/>
+		<History year="820" economy="7" pop="55000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="7" pop="55000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--宣歙-->
+	<!--宣州 宣城-->
+	<ProvinceDefinition
+		id="182" provinceName="Xuanzhou" color="57, 134, 69" capitalName="Xuancheng" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="8" pop="81000" owner="ZX" isLegal="ZX"/>
+		<History year="820" economy="8" pop="81000" owner="XZ" isLegal="XZ"/>
+		<History year="906" economy="8" pop="71000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="81000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--池州 秋浦-->
+	<ProvinceDefinition
+		id="183" provinceName="Chizhou" color="37, 192, 138" capitalName="Qiupu" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="7" pop="24000" owner="ZX" isLegal="ZX"/>
+		<History year="820" economy="7" pop="24000" owner="XZ" isLegal="XZ"/>
+		<History year="906" economy="7" pop="25000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="24000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--歙州 歙-->
+	<ProvinceDefinition
+		id="184" provinceName="Shezhou" color="179, 155, 199" capitalName="She" isMountain="true" maxDef="5000" huhuaness="0.2">
+		<History year="755" economy="7" pop="38000" owner="ZX" isLegal="ZX"/>
+		<History year="820" economy="7" pop="38000" owner="XZ" isLegal="XZ"/>
+		<History year="906" economy="7" pop="48000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="38000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--浙东-->
+	<!--越州 会稽-->
+	<ProvinceDefinition
+		id="185" provinceName="Yuezhou" color="26, 171, 77" capitalName="Kuaiji" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="8" pop="90000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="8" pop="95000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="8" pop="90000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--明州 鄮-->
+	<ProvinceDefinition
+		id="186" provinceName="Mingzhou" color="89, 92, 50" capitalName="Mao" isPlain="true" maxDef="2000" huhuaness="0.3">
+		<History year="755" economy="5" pop="42000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="5" pop="52000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="7" pop="52000" owner="WU" isLegal="WU"/>
+		<History year="2025" economy="6" pop="42000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--婺州 金华-->
+	<ProvinceDefinition
+		id="187" provinceName="Wuzhou" color="203, 92, 231" capitalName="Jinhua" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="7" pop="144000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="7" pop="144000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="7" pop="144000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--台州 临海-->
+	<ProvinceDefinition
+		id="188" provinceName="Taizhou" color="199, 84, 26" capitalName="Linhai" isMountain="true" maxDef="5000" huhuaness="0.3">
+		<History year="755" economy="6" pop="84000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="6" pop="86000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="6" pop="84000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--衢州 西安-->
+	<ProvinceDefinition
+		id="189" provinceName="Quzhou" color="44, 149, 30" capitalName="Xian" isMountain="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="5" pop="68000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="5" pop="75000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="6" pop="68000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--处州 丽水-->
+	<ProvinceDefinition
+		id="190" provinceName="Chuzhou" color="26, 35, 206" capitalName="Lishui" isMountain="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="4" pop="43000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="4" pop="45000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="5" pop="43000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--温州 永嘉-->
+	<ProvinceDefinition
+		id="191" provinceName="Wenzhou" color="152, 239, 11" capitalName="Yongjia" isMountain="true" maxDef="5000" huhuaness="0.5">
+		<History year="755" economy="5" pop="43000" owner="ZD" isLegal="ZD"/>
+		<History year="906" economy="5" pop="47000" owner="ZX" isLegal="ZX"/>
+		<History year="2024" economy="6" pop="43000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--福建 -->
+	<!--福州 闽-->
+	<ProvinceDefinition
+		id="192" provinceName="Fuzhou" color="25, 52, 69" capitalName="Min" isMajor="true" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="5" pop="34000" owner="FJ" isLegal="FJ"/>
+		<History year="906" economy="5" pop="54000" owner="FJ" isLegal="FJ"/>
+		<History year="2024" economy="5" pop="34000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--建州 邵武-->
+	<ProvinceDefinition
+		id="193" provinceName="Jianzhou" color="154, 64, 29" capitalName="Shaowu" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="23000" owner="FJ" isLegal="FJ"/>
+		<History year="906" economy="4" pop="32000" owner="FJ" isLegal="FJ"/>
+		<History year="2024" economy="4" pop="23000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--泉州 晋江-->
+	<ProvinceDefinition
+		id="194" provinceName="Quanzhou" color="81, 128, 100" capitalName="Jinjiang" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="5" pop="24000" owner="FJ" isLegal="FJ"/>
+		<History year="906" economy="5" pop="20000" owner="FJ" isLegal="FJ"/>
+		<History year="2024" economy="5" pop="24000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="24000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--漳州 龙溪-->
+	<ProvinceDefinition
+		id="195" provinceName="Zhangzhou" color="100, 39, 135" capitalName="Longxi" maxDef="4000" huhuaness="0.4">
+		<History year="755" economy="4" pop="6000" owner="FJ" isLegal="FJ"/>
+		<History year="906" economy="4" pop="16000" owner="FJ" isLegal="FJ"/>
+		<History year="2024" economy="4" pop="16000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="6000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--汀州 长汀-->
+	<ProvinceDefinition
+		id="196" provinceName="Tingzhou" color="64, 203, 62" capitalName="Changting" isMountain="true" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="4" pop="5000" owner="FJ" isLegal="FJ"/>
+		<History year="906" economy="4" pop="9000" owner="FJ" isLegal="FJ"/>
+		<History year="2024" economy="4" pop="5000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="5000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--江南西道-->
+	<!--江州 浔阳-->
+	<ProvinceDefinition
+		id="197" provinceName="Jiangzhou" color="36, 179, 29" capitalName="Xunyang" isPlain="true" maxDef="3000" huhuaness="0.2">
+		<History year="755" economy="7" pop="19000" owner="JJ" isLegal="JJ"/>
+		<History year="906" economy="7" pop="23000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="7" pop="19000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="7" pop="19000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--饶州 鄱阳-->
+	<ProvinceDefinition
+		id="198" provinceName="Raozhou" color="129, 12, 150" capitalName="Poyang" isPlain="true" maxDef="3000" huhuaness="0.1">
+		<History year="755" economy="7" pop="36000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="7" pop="36000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--洪州 南昌-->
+	<ProvinceDefinition
+		id="199" provinceName="Hongzhou" color="26, 102, 164" capitalName="Nanchang" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.2">
+		<History year="755" economy="8" pop="56000" owner="JJ" isLegal="JJ"/>
+		<History year="906" economy="8" pop="66000" owner="HN" isLegal="HN"/>
+		<History year="2024" economy="8" pop="56000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="8" pop="56000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--信州 上饶-->
+	<ProvinceDefinition
+		id="200" provinceName="Xinzhou" color="88, 87, 42" capitalName="Shangrao" isMountain="true" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="5" pop="7000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="5" pop="7000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--袁州 宜春-->
+	<ProvinceDefinition
+		id="201" provinceName="Yuanzhou" color="209, 21, 68" capitalName="Yichun" isMountain="true" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="5" pop="27000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="5" pop="27000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="27000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--抚州 临川-->
+	<ProvinceDefinition
+		id="202" provinceName="Fuzhou" color="136, 179, 179" capitalName="Linchuan" isMountain="true" maxDef="3000" huhuaness="0.4">
+		<History year="755" economy="6" pop="31000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="6" pop="31000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="31000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--吉州 庐陵-->
+	<ProvinceDefinition
+		id="203" provinceName="Jizhou" color="98, 235, 29" capitalName="Luling" isMountain="true" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="6" pop="38000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="6" pop="38000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="38000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--虔州 赣-->
+	<ProvinceDefinition
+		id="204" provinceName="Qianzhou" color="98, 22, 150" capitalName="Gan" isMountain="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="5" pop="38000" owner="JJ" isLegal="JJ"/>
+		<History year="2024" economy="6" pop="38000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="38000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--湖南 -->
+	<!--潭州 长沙-->
+	<ProvinceDefinition
+		id="205" provinceName="Tanzhou" color="94, 57, 52" capitalName="Changsha" isPlain="true" isMajor="true" maxDef="4000" huhuaness="0.3">
+		<History year="755" economy="7" pop="32000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="7" pop="42000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="7" pop="32000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--邵州 邵阳-->
+	<ProvinceDefinition
+		id="206" provinceName="Shaozhou" color="96, 177, 80" capitalName="Shaoyang" isMountain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="4" pop="17000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="4" pop="21000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="17000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--衡州 衡阳-->
+	<ProvinceDefinition
+		id="207" provinceName="Hengzhou" color="40, 208, 189" capitalName="Hengyang" isPlain="true" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="6" pop="34000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="6" pop="34000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="34000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--永州 零陵-->
+	<ProvinceDefinition
+		id="208" provinceName="Yongzhou" color="40, 62, 208" capitalName="Lingling" maxDef="3000" huhuaness="0.6">
+		<History year="755" economy="5" pop="28000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="5" pop="28000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="28000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--道州 弘道-->
+	<ProvinceDefinition
+		id="209" provinceName="Tongzhou" color="58, 159, 32" capitalName="Hongdao" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="23000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="4" pop="23000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="23000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--郴州 郴-->
+	<ProvinceDefinition
+		id="210" provinceName="Chenzhou" color="233, 52, 77" capitalName="Chen" isMountain="true"maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="33000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="4" pop="33000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="33000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--连州 桂阳-->
+	<ProvinceDefinition
+		id="211" provinceName="Lianzhou" color="31, 189, 206" capitalName="Guiyang" isMountain="true" maxDef="6000" huhuaness="0.6">
+		<History year="755" economy="4" pop="32000" owner="NN" isLegal="NN"/>
+		<History year="2024" economy="4" pop="32000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="32000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--黔中-->
+	<!--施州 清江-->
+	<ProvinceDefinition
+		id="212" provinceName="Shizhou" color="55, 113, 119" capitalName="Qingjiang" isMountain="true" maxDef="5000" huhuaness="0.7">
+		<History year="755" economy="4" pop="4000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="4" pop="4000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--黔州 彭水-->
+	<ProvinceDefinition
+		id="213" provinceName="Qianzhou" color="117, 59, 36" capitalName="Pengshui" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="4000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="4" pop="4000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="4" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--溱州 荣懿-->
+	<ProvinceDefinition
+		id="214" provinceName="Qinzhou" color="28, 124, 34" capitalName="Rongyi" isMountain="true" maxDef="6000" huhuaness="0.8">
+		<History year="755" economy="3" pop="3000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="3000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="3000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--珍州-->
+	<ProvinceDefinition
+		id="215" provinceName="Zhenzhou" color="139, 65, 138" capitalName="Zhenzhou" isMountain="true" maxDef="4000" huhuaness="0.9">
+		<History year="755" economy="3" pop="1000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="1000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="1000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--思州 务川-->
+	<ProvinceDefinition
+		id="216" provinceName="Sizhou" color="17, 22, 60" capitalName="Wuchuan" isMountain="true" maxDef="6000" huhuaness="0.8">
+		<History year="755" economy="3" pop="2000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="2000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="2000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--溪州 大乡-->
+	<ProvinceDefinition
+		id="217" provinceName="Xizhou" color="220, 218, 150" capitalName="Daxiang" isMountain="true" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="3" pop="2000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="2000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="2000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--锦州 卢阳-->
+	<ProvinceDefinition
+		id="218" provinceName="Jinzhou" color="230, 95, 41" capitalName="Luyang" isMountain="true" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="3" pop="3000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="8000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="8000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--辰州 沅陵-->
+	<ProvinceDefinition
+		id="219" provinceName="Chenzhou" color="55, 40, 183" capitalName="Yuanling" isMountain="true" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="4" pop="4000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="4" pop="4000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--播州 遵义-->
+	<ProvinceDefinition
+		id="220" provinceName="Bozhou" color="65, 205, 93" capitalName="Zunyi" isMountain="true" maxDef="6000" huhuaness="0.8">
+		<History year="755" economy="3" pop="1000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="1000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="1000" owner="QN" isLegal="QN"/>
+	</ProvinceDefinition>
+	<!--夷州 绥阳-->
+	<ProvinceDefinition
+		id="221" provinceName="Yizhou" color="217, 38, 97" capitalName="Suiyang" isMountain="true" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="3" pop="1000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="1000" owner="SU" isLegal="SU"/>
+		<History year="2025" economy="3" pop="1000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--充州-->
+	<ProvinceDefinition
+		id="222" provinceName="Chongzhou" color="48, 10, 15" capitalName="Chongzhou" isMountain="true" maxDef="4000" huhuaness="0.9">
+		<History year="755" economy="3" pop="1000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="3000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="1000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--叙州 龙标-->
+	<ProvinceDefinition
+		id="223" provinceName="Xuzhou" color="52, 172, 144" capitalName="Longbiao" isMountain="true" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="3" pop="6000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="8000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="6000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--矩州-->
+	<ProvinceDefinition
+		id="224" provinceName="Juzhou" color="49, 31, 206" capitalName="Juzhou" isMountain="true" maxDef="6000" huhuaness="0.9">
+		<History year="755" economy="2" pop="3000" owner="QZ" isLegal="QZ"/>
+		<History year="2024" economy="3" pop="5000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--岭南-->
+	<!--韶州 曲江-->
+	<ProvinceDefinition
+		id="225" provinceName="Shaozhou" color="97, 100, 129" capitalName="Qujiang" isMountain="true" maxDef="5000" huhuaness="0.4">
+		<History year="755" economy="4" pop="31000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="41000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="41000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--潮州 海阳-->
+	<ProvinceDefinition
+		id="226" provinceName="Chaozhou" color="213, 80, 36" capitalName="Haiyang" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="4" pop="5000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="15000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="15000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--循州 归善-->
+	<ProvinceDefinition
+		id="227" provinceName="Xunzhou" color="41, 117, 40" capitalName="Guishan" isMountain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="5" pop="10000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="6" pop="20000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="6" pop="20000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--广州 南海-->
+	<ProvinceDefinition
+		id="228" provinceName="Guangzhou" color="44, 197, 105" capitalName="Nanhai" isPlain="true" isMajor="true" maxDef="3000" huhuaness="0.3">
+		<History year="755" economy="7" pop="42000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="8" pop="92000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="8" pop="82000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--封州 封川-->
+	<ProvinceDefinition
+		id="229" provinceName="Fengzhou" color="23, 95, 238" capitalName="Fengchuan" isPlain="true" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="4" pop="12000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="22000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="12000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--康州 端溪-->
+	<ProvinceDefinition
+		id="230" provinceName="Kangzhou" color="176, 79, 34" capitalName="Duanxi" isPlain="true" maxDef="3000" huhuaness="0.5">
+		<History year="755" economy="5" pop="11000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="21000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="11000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--端州 高要-->
+	<ProvinceDefinition
+		id="231" provinceName="Duanzhou" color="138, 142, 79" capitalName="Gaoyao" isPlain="true" maxDef="3000" huhuaness="0.6">
+		<History year="755" economy="5" pop="8000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="18000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="5" pop="8000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--泷州 泷水-->
+	<ProvinceDefinition
+		id="232" provinceName="Longzhou" color="25, 66, 213" capitalName="Longshui" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="3" pop="4000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="4" pop="14000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--新州 新兴-->
+	<ProvinceDefinition
+		id="233" provinceName="Xinzhou" color="72, 121, 33" capitalName="Xinxing" isPlain="true" maxDef="2000" huhuaness="0.5">
+		<History year="755" economy="4" pop="3000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="13000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--恩州 恩平-->
+	<ProvinceDefinition
+		id="234" provinceName="Enzhou" color="224, 82, 221" capitalName="Enping" isPlain="true" maxDef="4000" huhuaness="0.5">
+		<History year="755" economy="4" pop="20000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="4" pop="30000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="20000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--高州 电白-->
+	<ProvinceDefinition
+		id="235" provinceName="Gaozhou" color="222, 74, 119" capitalName="Dianbai" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="4" pop="28000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="5" pop="38000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="28000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--雷州 海康-->
+	<ProvinceDefinition
+		id="236" provinceName="Leizhou" color="89, 214, 47" capitalName="Haikang" isMountain="true" maxDef="3000" huhuaness="0.7">
+		<History year="755" economy="3" pop="10000" owner="LN" isLegal="LN"/>
+		<History year="2024" economy="3" pop="15000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="10000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--桂管-->
+	<!--融州 融水-->
+	<ProvinceDefinition
+		id="237" provinceName="Rongzhou" color="241, 16, 31" capitalName="Rongshui" isMountain="true" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="1000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="2" pop="5000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="1000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--桂州 临桂-->
+	<ProvinceDefinition
+		id="238" provinceName="Guizhou" color="111, 168, 214" capitalName="Lingui" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="18000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="6" pop="38000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="18000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--昭州 平乐-->
+	<ProvinceDefinition
+		id="239" provinceName="Zhaozhou" color="245, 45, 242" capitalName="Pingle" isMountain="true" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="3" pop="8000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="3" pop="13000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="8000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--贺州 临贺-->
+	<ProvinceDefinition
+		id="240" provinceName="Hezhou" color="101, 99, 53" capitalName="Linhe" isMountain="true" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="3" pop="5000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="3" pop="10000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="5000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--梧州 苍梧-->
+	<ProvinceDefinition
+		id="241" provinceName="Wuzhou" color="41, 185, 41" capitalName="Cangwu" maxDef="6000" huhuaness="0.6">
+		<History year="755" economy="3" pop="2000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="5" pop="22000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="2000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--严州 来宾-->
+	<ProvinceDefinition
+		id="242" provinceName="Yanzhou" color="12, 54, 207" capitalName="Laibin" maxDef="4000" huhuaness="0.7">
+		<History year="755" economy="3" pop="7000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="5" pop="27000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="7000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--柳州 马平-->
+	<ProvinceDefinition
+		id="243" provinceName="Liuzhou" color="133, 62, 142" capitalName="Maping" isMountain="true" maxDef="4000" huhuaness="0.6">
+		<History year="755" economy="3" pop="2000" owner="GG" isLegal="GG"/>
+		<History year="2024" economy="5" pop="22000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="2000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--容管-->
+	<!--藤州 镡津-->
+	<ProvinceDefinition
+		id="244" provinceName="Tengzhou" color="200, 20, 53" capitalName="Tanjin" maxDef="3000" huhuaness="0.8">
+		<History year="755" economy="3" pop="5000" owner="RG" isLegal="RG"/>
+		<History year="2024" economy="4" pop="25000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="5000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--容州 普宁-->
+	<ProvinceDefinition
+		id="245" provinceName="Rongzhou" color="48, 154, 164" capitalName="Puning" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="18000" owner="RG" isLegal="RG"/>
+		<History year="2024" economy="5" pop="38000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="18000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--郁林州 郁平-->
+	<ProvinceDefinition
+		id="246" provinceName="Yuzhou" color="69, 119, 63" capitalName="Yuping" isMountain="true" maxDef="3000" huhuaness="0.8">
+		<History year="755" economy="3" pop="3000" owner="RG" isLegal="RG"/>
+		<History year="2024" economy="3" pop="13000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--廉州 合浦-->
+	<ProvinceDefinition
+		id="247" provinceName="Lianzhou" color="158, 19, 156" capitalName="Hepu" isMountain="true" maxDef="3000" huhuaness="0.8">
+		<History year="755" economy="3" pop="3000" owner="RG" isLegal="RG"/>
+		<History year="2024" economy="3" pop="13000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	
+	<!--邕管-->
+	<!--浔州 桂平-->
+	<ProvinceDefinition
+		id="248" provinceName="Xunzhou" color="43, 171, 98" capitalName="Guiping" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="3000" owner="GG" isLegal="GG"/>
+		<History year="820" economy="2" pop="3000" owner="YG" isLegal="YG"/>
+		<History year="2024" economy="2" pop="8000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--贵州 郁林-->
+	<ProvinceDefinition
+		id="249" provinceName="Guizhou" color="35, 179, 141" capitalName="Yulin" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="6000" owner="GG" isLegal="GG"/>
+		<History year="820" economy="2" pop="6000" owner="YG" isLegal="YG"/>
+		<History year="2024" economy="2" pop="15000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="6000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--宾州 领方-->
+	<ProvinceDefinition
+		id="250" provinceName="Binzhou" color="247, 51, 94" capitalName="Lingfang" isMountain="true" maxDef="4000" huhuaness="0.8">
+		<History year="755" economy="2" pop="4000" owner="GG" isLegal="GG"/>
+		<History year="820" economy="2" pop="4000" owner="YG" isLegal="YG"/>
+		<History year="2024" economy="2" pop="9000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--钦州 保京-->
+	<ProvinceDefinition
+		id="251" provinceName="Qinzhou" color="208, 222, 215" capitalName="Baojing" isMountain="true" maxDef="3000" huhuaness="0.8">
+		<History year="755" economy="3" pop="3000" owner="GG" isLegal="GG"/>
+		<History year="820" economy="3" pop="3000" owner="YG" isLegal="YG"/>
+		<History year="2024" economy="3" pop="8000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--邕州 宣化-->
+	<ProvinceDefinition
+		id="252" provinceName="Yongzhou" color="32, 16, 102" capitalName="Xuanhua" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="4" pop="3000" owner="GG" isLegal="GG"/>
+		<History year="820" economy="4" pop="3000" owner="YG" isLegal="YG"/>
+		<History year="2024" economy="5" pop="20000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--安南-->
+	<!--武定州-->
+	<ProvinceDefinition
+		id="253" provinceName="Wudingzhou" color="243, 42, 109" capitalName="Wudingzhou" isMountain="true" maxDef="6000" huhuaness="0.9">
+		<History year="755" economy="2" pop="4000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="2" pop="14000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="2" pop="4000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--汤州-->
+	<ProvinceDefinition
+		id="254" provinceName="Tangzhou" color="231, 22, 221" capitalName="Tangzhou" isMountain="true" maxDef="6000" huhuaness="0.7">
+		<History year="755" economy="3" pop="3000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="3" pop="13000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="3000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--陆州 鸟雷-->
+	<ProvinceDefinition
+		id="255" provinceName="Luzhou" color="55, 168, 18" capitalName="Niaolei" maxDef="3000" huhuaness="0.6">
+		<History year="755" economy="3" pop="1000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="3" pop="5000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="3" pop="1000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--交州 宋平-->
+	<ProvinceDefinition
+		id="256" provinceName="Jiaozhou" color="89, 92, 54" capitalName="Songping" isPlain="true" isMajor="true" maxDef="6000" huhuaness="0.4">
+		<History year="755" economy="7" pop="35000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="7" pop="65000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="7" pop="65000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--爱州 九真-->
+	<ProvinceDefinition
+		id="257" provinceName="Aizhou" color="56, 181, 39" capitalName="Jiuzhen" isMountain="true" maxDef="5000" huhuaness="0.6">
+		<History year="755" economy="5" pop="17000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="5" pop="25000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="15000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+	<!--驩州 九德-->
+	<ProvinceDefinition
+		id="258" provinceName="Huanzhou" color="221, 112, 57" capitalName="Jiude" isMountain="true" maxDef="5000" huhuaness="0.7">
+		<History year="755" economy="5" pop="12000" owner="AN" isLegal="AN"/>
+		<History year="2024" economy="5" pop="21000" owner="CU" isLegal="CU"/>
+		<History year="2025" economy="4" pop="11000" owner="WU" isLegal="WU"/>
+	</ProvinceDefinition>
+
+	<!--观察者 OB-->
+	<!--观察者-->
+	<ProvinceDefinition
+		id="259" provinceName="Observer" color="106, 39, 5" capitalName="OB" isPlain="true" isMajor="true" maxDef="1000000" huhuaness="1.0">
+		<History year="0" economy="100" pop="100000" owner="OB" isLegal="OB"/>
+	</ProvinceDefinition>
+	
+</ProvinceDefinitions>

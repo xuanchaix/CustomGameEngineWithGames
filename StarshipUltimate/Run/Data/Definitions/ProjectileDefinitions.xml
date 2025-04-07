@@ -1,0 +1,12 @@
+<ProjectileDefinitions>
+	<ProjectileDefinition name="Bullet" basicSpeed="60" lifeSeconds="1.5"/>
+	<ProjectileDefinition name="Shuriken" basicSpeed="100" lifeSeconds="3.0"/>
+	<ProjectileDefinition name="Rocket" basicSpeed="150" lifeSeconds="0.8" damageModifier="1.0" damageRange="10.0" rangeDamageModifier="1.2"/>
+	<ProjectileDefinition name="DemonBullet" basicSpeed="50" lifeSeconds="3.0"/>
+	<ProjectileDefinition name="EnemyBullet" basicSpeed="30" lifeSeconds="3.0"/>
+	<ProjectileDefinition name="CurveMissile" basicSpeed="50" lifeSeconds="100.0"/>
+	<ProjectileDefinition name="CoinBullet" basicSpeed="90" lifeSeconds="1.5"/>
+	<ProjectileDefinition name="SharpenedObsidian" basicSpeed="70" lifeSeconds="5.0"/>
+	<ProjectileDefinition name="Arrow" basicSpeed="70" lifeSeconds="5.0"/>
+	
+</ProjectileDefinitions>

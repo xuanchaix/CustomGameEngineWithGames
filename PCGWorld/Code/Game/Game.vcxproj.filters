@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{c2f8cc26-f828-41e4-8c0a-24173cb8f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a0e090fe-b487-4230-a681-1dbeea8399ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Biome Add-ons">
+      <UniqueIdentifier>{79d880b9-78ba-4936-bc8e-9acbb3f9db53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2fb19cfd-5053-4756-b930-f81f286af7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Human">
+      <UniqueIdentifier>{d77910c4-06c5-47ef-923d-3f3ca48406e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4182f5d0-91f3-402f-ba3c-9d0bf7e37f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{7c8180ec-7efb-41d6-ba95-c4ea326f9086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="History Data">
+      <UniqueIdentifier>{8b7b1684-117c-4b6e-b3e2-b69b78d7bdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{139f4194-b476-4165-8a05-e8e146f48119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\zip">
+      <UniqueIdentifier>{140eed47-7f72-44e8-a373-18b27e201b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="River.cpp">
+      <Filter>Biome Add-ons</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPolygonUnit.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Culture.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Religion.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Country.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Continent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarHelper.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>Biome Add-ons</Filter>
+    </ClCompile>
+    <ClCompile Include="NameGenerator.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryData.cpp">
+      <Filter>History Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Engine\Code\ThirdParty\zip\zip.c">
+      <Filter>ThirdParty\zip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="VoronoiHelper.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="River.hpp">
+      <Filter>Biome Add-ons</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPolygonUnit.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Culture.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Religion.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="City.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Country.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Continent.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarHelper.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="label.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.hpp">
+      <Filter>Biome Add-ons</Filter>
+    </ClInclude>
+    <ClInclude Include="NameGenerator.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Army.hpp">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="CountryInstructions.hpp">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryData.hpp">
+      <Filter>History Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Engine\Code\ThirdParty\zip\miniz.h">
+      <Filter>ThirdParty\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Engine\Code\ThirdParty\zip\zip.h">
+      <Filter>ThirdParty\zip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\BasicShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\2DTextureShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\3DModeShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\SphereModeShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\2DPolygonTextureShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

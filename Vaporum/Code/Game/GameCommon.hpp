@@ -1,0 +1,86 @@
+#pragma once
+// ----------------------game common things puts in here-------------------------
+// frequently include headers
+// should not include Game.hpp
+// 
+// following .hpps are included in Vertex_PCU.hpp
+//#include "Engine/Math/Vec2.hpp"
+//#include "Engine/Math/Vec3.hpp"
+//#include "Engine/Core/Rgba8.hpp"
+#include <string>
+#include <vector>
+#include "Engine/Core/Vertex_PCU.hpp"
+#include "Engine/Core/VertexUtils.hpp"
+#include "Engine/Core/ErrorWarningAssert.hpp"
+#include "Engine/Core/EngineCommon.hpp"
+#include "Engine/Core/HeatMaps.hpp"
+#include "Engine/Core/DevConsole.hpp"
+#include "Engine/Core/EventSystem.hpp"
+#include "Engine/Core/Clock.hpp"
+#include "Engine/Math/EngineMath.hpp"
+#include "Engine/Core/Timer.hpp"
+#include "Engine/Renderer/Renderer.hpp"
+#include "Engine/Renderer/SimpleTriangleFont.hpp"
+#include "Engine/Renderer/Window.hpp"
+#include "Engine/Renderer/SpriteAnimDefinition.hpp"
+#include "Engine/Renderer/DebugRenderSystem.hpp"
+#include "Engine/Input/InputSystem.hpp"
+#include "Engine/Audio/AudioSystem.hpp"
+#include "Engine/NetSystem/NetSystem.hpp"
+#include "Engine/Renderer/Material.hpp"
+#include "Engine/Renderer/ConstantBuffer.hpp"
+#include "Engine/Renderer/Meshes.hpp"
+#include "Engine/Renderer/Material.hpp"
+#include "Engine/Core/ObjLoader.hpp"
+#include "Engine/Renderer/IndexBuffer.hpp"
+#include "Engine/Renderer/VertexBuffer.hpp"
+
+//constexpr char const* APP_NAME = "Vaporum";
+
+#ifdef _DEBUG
+#define DEBUG_MODE
+#endif
+
+class App;
+class Game;
+class Entity;
+typedef std::vector<Entity*> EntityList;
+// global variables
+extern App* g_theApp;
+extern Game* g_theGame;
+extern Renderer* g_theRenderer;
+extern InputSystem* g_theInput;
+extern AudioSystem* g_theAudio;
+extern Window* g_window;
+extern BitmapFont* g_ASCIIFont;
+
+// constant variables
+constexpr float UI_SIZE_X = 1600.f;
+constexpr float UI_SIZE_Y = 800.f;
+constexpr float WORLD_SIZE_X = 200.f;
+constexpr float WORLD_SIZE_Y = 100.f;
+constexpr float UNIT_TURN_SPEED = 120.f;
+constexpr float UNIT_MOVE_SPEED = 3.f;
+
+
+enum class AudioName { AttractMode, NUM };
+enum class AnimationName { PlaceHolder, NUM };
+
+void AddVertsForHexagon( std::vector<Vertex_PCU>& verts, std::vector<unsigned int>& indexes, Vec2 const& center, float innerRadius, float thickness = 0.03f, Rgba8 const& color=Rgba8::WHITE );
+void AddVertsForSolidHexagon( std::vector<Vertex_PCU>& verts, std::vector<unsigned int>& indexes, Vec2 const& center, float innerRadius, float thickness = 0.01f, Rgba8 const& color = Rgba8( 0, 0, 0 ) );
+
+// debug drawing functions
+void DebugDrawRing( Vec2 const& center, float radius, float thickness, Rgba8 const& color );
+void DebugDrawLine( Vec2 const& startPos, float orientation, float length, float thickness, Rgba8 const& color );
+void DebugDrawLine( Vec2 const& startPos, Vec2 const& endPos, float thickness, Rgba8 const& color );
+
+void AddVertsForUIPanelBlack( std::vector<Vertex_PCU>& verts, AABB2 const& bounds, float edgeWidth );
+void AddVertsForUIPanelWhite( std::vector<Vertex_PCU>& verts, AABB2 const& bounds, float edgeWidth );
+
+enum class UnitDirection {
+	PlusX, PlusY, PlusZ, MinusX, MinusY, MinusZ, Left, Right, None, Custom
+};
+
+enum class EffectType {
+	Damage_Number, Cone_Smoke_Particle, Sphere_Fire_Particle, Cone_Muzzle_Particle, Art_Rocket, None,
+};
